@@ -6,22 +6,21 @@
       <GradleProjectSettings>
         <option name="delegatedBuild" value="true" />
         <option name="testRunner" value="GRADLE" />
-        <option name="distributionType" value="WRAPPED" />
+        <option name="distributionType" value="LOCAL" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="gradleHome" value="$PROJECT_DIR$/../../../gradle-6.8" />
         <option name="gradleJvm" value="1.8" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/check-box" />
             <option value="$PROJECT_DIR$/image-view" />
+            <option value="$PROJECT_DIR$/localtion_upload" />
             <option value="$PROJECT_DIR$/master" />
             <option value="$PROJECT_DIR$/network" />
             <option value="$PROJECT_DIR$/radio" />
             <option value="$PROJECT_DIR$/toast" />
           </set>
         </option>
-        <option name="resolveExternalAnnotations" value="false" />
       </GradleProjectSettings>
     </option>
   </component>

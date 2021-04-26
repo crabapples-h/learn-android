@@ -1,2 +1,3 @@
+include ':localtion_upload'
 rootProject.name = 'learn-android'
 include 'check-box', 'image-view', 'radio', 'toast','master','network'

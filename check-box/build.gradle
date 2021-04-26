@@ -3,3 +3,12 @@ apply from: "${rootProject.projectDir}/config.gradle"
 
 group = "cn.crabapples"
 description = "this is gradle checkbox demo"
+//
+//android {
+//    defaultConfig {
+//        applicationId "cn.crabapples.check-box"
+//    }
+//}
+
+
+
