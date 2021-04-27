@@ -13,35 +13,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="31ed744b-49f6-49cf-b8af-fcce6cbd3f43" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/master/src/main/java/cn/crabapples/master/MainActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/check-box/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/check-box/src/main/res/layout/activity_main.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/config.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image-view/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/image-view/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/localtion_upload/src/main/java/cn/crabapples/localtion_upload/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/localtion_upload/src/main/java/cn/crabapples/localtion_upload/MainActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/master/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/master/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/master/src/androidTest/java/cn/crabapples/network/ExampleInstrumentedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/master/src/androidTest/java/cn/crabapples/master/ExampleInstrumentedTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/master/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/master/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/master/src/main/java/cn/crabapples/network/GetDocUrl.java" beforeDir="false" afterPath="$PROJECT_DIR$/master/src/main/java/cn/crabapples/master/GetDocUrl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/master/src/main/java/cn/crabapples/network/MainActivity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/master/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/master/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/master/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/master/src/main/res/values/strings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/master/src/test/java/cn/crabapples/network/ExampleUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/master/src/test/java/cn/crabapples/master/ExampleUnitTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/network/src/androidTest/java/cn/crabapples/network/ExampleInstrumentedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/network/src/androidTest/java/cn/crabapples/master/ExampleInstrumentedTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/network/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/network/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/network/src/main/java/cn/crabapples/network/GetDocUrl.java" beforeDir="false" afterPath="$PROJECT_DIR$/network/src/main/java/cn/crabapples/master/GetDocUrl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/network/src/main/java/cn/crabapples/network/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/network/src/main/java/cn/crabapples/master/MainActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/network/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/network/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/network/src/test/java/cn/crabapples/network/ExampleUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/network/src/test/java/cn/crabapples/master/ExampleUnitTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/radio/src/main/java/cn/crabapples/radio/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/radio/src/main/java/cn/crabapples/radio/MainActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/timepicker/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/timepicker/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/timepicker/src/main/java/cn/crabapples/timepicker/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/timepicker/src/main/java/cn/crabapples/timepicker/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/timepicker/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/timepicker/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/timepicker/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/timepicker/src/main/res/values/strings.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="Pixel_2_API_24" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="dcbd97b60304" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -108,12 +91,15 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="52326744" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2021-04-27T20:02:53.878188700Z" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SelectDeploymentTargetsDialog.selectedDevices" value="52326744" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="memory.settings.postsync.last.time.stamp" value="1619464342131" />
+    <property name="memory.settings.postsync.last.time.stamp" value="1619550801162" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -128,10 +114,11 @@
       <recent name="cn.crabapples" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="cn.crabapples.timepicker" />
       <recent name="cn.crabapples.localtion_upload" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.learn-android [clean]">
+  <component name="RunManager" selected="Android App.learn-android.timepicker">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
       <module name="learn-android.check-box" />
       <option name="DEPLOY" value="true" />
@@ -328,7 +315,7 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="learn-android.timepicker" type="AndroidRunConfigurationType" factoryName="Android App">
+    <configuration name="learn-android.timepicker" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
       <module name="learn-android.timepicker" />
       <option name="DEPLOY" value="true" />
       <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
@@ -382,17 +369,6 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method v="2">
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="learn-android [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
@@ -489,7 +465,9 @@
       <workItem from="1619464122756" duration="3443000" />
       <workItem from="1619467677134" duration="3325000" />
       <workItem from="1619498698277" duration="11048000" />
-      <workItem from="1619515161100" duration="11236000" />
+      <workItem from="1619515161100" duration="12023000" />
+      <workItem from="1619550707765" duration="1850000" />
+      <workItem from="1619552633125" duration="3066000" />
     </task>
     <servers />
   </component>
