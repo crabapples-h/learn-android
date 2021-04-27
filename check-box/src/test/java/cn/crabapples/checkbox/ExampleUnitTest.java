@@ -1,4 +1,4 @@
-package com.example.a29404.checkbox;
+package com.crabapples.a29404.checkbox;
 
 import org.junit.Test;
 

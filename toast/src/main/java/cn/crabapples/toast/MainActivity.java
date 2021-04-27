@@ -1,11 +1,10 @@
-package cn.crabapples.a29404.toast;
+package cn.crabapples.toast;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
-import com.crabapples.a29404.toast.R;
+import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
 

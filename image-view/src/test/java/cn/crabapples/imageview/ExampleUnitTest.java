@@ -1,4 +1,4 @@
-package cn.crabapples.a29404.imageview;
+package cn.crabapples.imageview;
 
 import org.junit.Test;
 

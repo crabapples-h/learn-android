@@ -1,4 +1,4 @@
-package cn.crabapples.a29404.toast;
+package cn.crabapples.toast;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

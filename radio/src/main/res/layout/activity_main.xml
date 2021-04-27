@@ -7,13 +7,19 @@
         android:layout_height="match_parent"
         android:orientation="vertical"
         tools:context=".MainActivity">
-        <RadioGroup android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/group1" android:orientation="horizontal">
-            <RadioButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/radio1" android:text="喜欢你"/>
-            <RadioButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/radio2" android:text="还是喜欢你"/>
-        </RadioGroup>
-        <RadioGroup android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/group2" android:orientation="horizontal">
-            <RadioButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/radio3" android:text="喜欢你"/>
-            <RadioButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/radio4" android:text="还是喜欢你"/>
-        </RadioGroup>
+    <RadioGroup android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/group1"
+                android:orientation="horizontal">
+        <RadioButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/radio1"
+                     android:text="喜欢你"/>
+        <RadioButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/radio2"
+                     android:text="还是喜欢你"/>
+    </RadioGroup>
+    <RadioGroup android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/group2"
+                android:orientation="horizontal">
+        <RadioButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/radio3"
+                     android:text="喜欢你"/>
+        <RadioButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/radio4"
+                     android:text="还是喜欢你"/>
+    </RadioGroup>
 
 </LinearLayout>

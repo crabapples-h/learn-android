@@ -1,4 +1,4 @@
-package cn.crabapples.admin.myapplication;
+package cn.crabapples.network;
 
 import org.junit.Test;
 

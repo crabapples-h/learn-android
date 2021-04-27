@@ -13,15 +13,37 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="31ed744b-49f6-49cf-b8af-fcce6cbd3f43" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/check-box/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/check-box/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/check-box/src/androidTest/java/cn/crabapples/checkbox/ExampleInstrumentedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/check-box/src/androidTest/java/cn/crabapples/checkbox/ExampleInstrumentedTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/check-box/src/main/java/cn/crabapples/checkbox/ClickChangeListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/check-box/src/main/java/cn/crabapples/checkbox/ClickChangeListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/check-box/src/main/java/cn/crabapples/checkbox/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/check-box/src/main/java/cn/crabapples/checkbox/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/check-box/src/test/java/cn/crabapples/checkbox/ExampleUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/check-box/src/test/java/cn/crabapples/checkbox/ExampleUnitTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/config.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/network/src/test/java/com/example/admin/myapplication/ExampleUnitTest.java.baiduyun.uploading.cfg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/toast/src/main/java/com/example/a29404/toast/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/toast/src/main/java/com/example/a29404/toast/MainActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/toast/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/toast/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image-view/src/androidTest/java/cn/crabapples/imageview/ExampleInstrumentedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/image-view/src/androidTest/java/cn/crabapples/imageview/ExampleInstrumentedTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image-view/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/image-view/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image-view/src/main/java/cn/crabapples/imageview/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/image-view/src/main/java/cn/crabapples/imageview/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image-view/src/test/java/cn/crabapples/imageview/ExampleUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/image-view/src/test/java/cn/crabapples/imageview/ExampleUnitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/localtion_upload/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/localtion_upload/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/localtion_upload/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/localtion_upload/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/localtion_upload/src/main/java/cn/crabapples/localtion_upload/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/localtion_upload/src/main/java/cn/crabapples/localtion_upload/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/localtion_upload/src/main/java/cn/crabapples/localtion_upload/MyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/localtion_upload/src/main/java/cn/crabapples/localtion_upload/MyService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/master/src/androidTest/java/cn/crabapples/network/ExampleInstrumentedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/master/src/androidTest/java/cn/crabapples/network/ExampleInstrumentedTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/master/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/master/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/master/src/main/java/cn/crabapples/network/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/master/src/main/java/cn/crabapples/network/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/master/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/master/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/master/src/test/java/cn/crabapples/network/ExampleUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/master/src/test/java/cn/crabapples/network/ExampleUnitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/network/src/androidTest/java/cn/crabapples/network/ExampleInstrumentedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/network/src/androidTest/java/cn/crabapples/network/ExampleInstrumentedTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/network/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/network/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/network/src/main/java/cn/crabapples/network/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/network/src/main/java/cn/crabapples/network/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/network/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/network/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/network/src/test/java/cn/crabapples/network/ExampleUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/network/src/test/java/cn/crabapples/network/ExampleUnitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/radio/src/androidTest/java/cn/crabapples/radio/ExampleInstrumentedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/radio/src/androidTest/java/cn/crabapples/radio/ExampleInstrumentedTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/radio/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/radio/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/radio/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/radio/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/radio/src/test/java/cn/crabapples/radio/ExampleUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/radio/src/test/java/cn/crabapples/radio/ExampleUnitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/toast/src/androidTest/java/cn/crabapples/toast/ExampleInstrumentedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/toast/src/androidTest/java/cn/crabapples/toast/ExampleInstrumentedTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/toast/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/toast/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/toast/src/main/java/cn/crabapples/toast/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/toast/src/main/java/cn/crabapples/toast/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/toast/src/test/java/cn/crabapples/toast/ExampleUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/toast/src/test/java/cn/crabapples/toast/ExampleUnitTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,6 +97,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="memory.settings.postsync.last.time.stamp" value="1619464342131" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -84,11 +107,14 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="cn.crabapples" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="cn.crabapples.localtion_upload" />
     </key>
   </component>
-  <component name="RunManager" selected="Android App.learn-android.localtion_upload">
+  <component name="RunManager" selected="Android App.check-box">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
       <module name="learn-android.check-box" />
       <option name="DEPLOY" value="true" />
@@ -145,7 +171,7 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="learn-android.image-view" type="AndroidRunConfigurationType" factoryName="Android App">
+    <configuration name="learn-android.image-view" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
       <module name="learn-android.image-view" />
       <option name="DEPLOY" value="true" />
       <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
@@ -229,7 +255,7 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="learn-android.network" type="AndroidRunConfigurationType" factoryName="Android App">
+    <configuration name="learn-android.network" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
       <module name="learn-android.network" />
       <option name="DEPLOY" value="true" />
       <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
@@ -257,7 +283,7 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="learn-android.radio" type="AndroidRunConfigurationType" factoryName="Android App">
+    <configuration name="learn-android.radio" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
       <module name="learn-android.radio" />
       <option name="DEPLOY" value="true" />
       <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
@@ -313,6 +339,19 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -334,11 +373,24 @@
       <workItem from="1616177807009" duration="1198000" />
       <workItem from="1616222294977" duration="4504000" />
       <workItem from="1616226836594" duration="6152000" />
-      <workItem from="1619464122756" duration="3311000" />
+      <workItem from="1619464122756" duration="3443000" />
+      <workItem from="1619467677134" duration="3325000" />
+      <workItem from="1619498698277" duration="10360000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/localtion_upload/src/main/java/cn/crabapples/localtion_upload/MainActivity.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

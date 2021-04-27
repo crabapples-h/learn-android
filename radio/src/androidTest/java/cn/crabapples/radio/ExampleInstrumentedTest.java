@@ -1,4 +1,4 @@
-package cn.crabapples.a29404.radio;
+package cn.crabapples.radio;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

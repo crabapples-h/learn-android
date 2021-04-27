@@ -1,4 +1,4 @@
-package cn.crabapples.a29404.imageview;
+package cn.crabapples.imageview;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

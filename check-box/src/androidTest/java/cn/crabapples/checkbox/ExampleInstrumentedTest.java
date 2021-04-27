@@ -1,4 +1,4 @@
-package cn.crabapples.a29404.checkbox;
+package cn.crabapples.checkbox;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
