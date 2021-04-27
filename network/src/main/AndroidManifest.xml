@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          package="cn.crabapples.network">
+          package="cn.crabapples.master">
     <uses-permission android:name="android.permission.INTERNET"></uses-permission>
     <application
             android:allowBackup="true"
@@ -11,7 +11,7 @@
             android:usesCleartextTraffic="true"
             android:networkSecurityConfig="@xml/network_security_config"
             android:theme="@style/AppTheme">
-        <activity android:name="cn.crabapples.network.MainActivity">
+        <activity android:name="cn.crabapples.master.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 

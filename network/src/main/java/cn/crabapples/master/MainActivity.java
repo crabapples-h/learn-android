@@ -1,4 +1,4 @@
-package cn.crabapples.network;
+package cn.crabapples.master;
 
 import android.os.Bundle;
 import android.view.View;
@@ -6,7 +6,6 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 import androidx.appcompat.app.AppCompatActivity;
-import com.crabapples.admin.myapplication.R;
 
 import java.io.BufferedInputStream;
 import java.net.URL;
@@ -21,13 +20,12 @@ public class MainActivity extends AppCompatActivity {
         Button button = findViewById(R.id.but);
         button.setText("按钮");
         EditText editText = findViewById(R.id.docUrl);
-//        editText.setText("https://wenku.baidu.com/view/347160755627a5e9856a561252d380eb629423d6");
-        editText.setText("test");
+        editText.setText("https://wenku.baidu.com/view/347160755627a5e9856a561252d380eb629423d6");
         button.setOnClickListener(new ButtonClick());
     }
     public String getDocUrl(String docUrl){
         try {
-            URL url = new URL("http://www.miss-x.cn/rest/bd0001/download?txtUrl="+docUrl);
+            URL url = new URL("http://www.miss-x.cn:61760/download?txtUrl="+docUrl);
             URLConnection conn = url.openConnection();
             conn.setDoInput(true);
             BufferedInputStream in = new BufferedInputStream(conn.getInputStream());

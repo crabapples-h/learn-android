@@ -8,14 +8,22 @@
         android:visibility="visible"
         tools:context=".MainActivity">
 
-   <CheckBox
-           android:id="@+id/eatId"
-           android:layout_width="wrap_content"
-           android:layout_height="wrap_content"
-            android:text="吃饭"/>
+    <CheckBox android:id="@+id/eatId"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="吃饭"/>
 
-    <CheckBox android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/sleepId" android:text="睡觉"/>
-    <CheckBox android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/hh" android:text="哈哈"/>
-    <CheckBox android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/all" android:text="全选"/>
+    <CheckBox android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:id="@+id/sleepId"
+              android:text="睡觉"/>
+    <CheckBox android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:id="@+id/hh"
+              android:text="哈哈"/>
+    <CheckBox android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:id="@+id/all"
+              android:text="全选"/>
 
 </LinearLayout>

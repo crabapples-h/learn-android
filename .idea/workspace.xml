@@ -13,37 +13,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="31ed744b-49f6-49cf-b8af-fcce6cbd3f43" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/check-box/src/androidTest/java/cn/crabapples/checkbox/ExampleInstrumentedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/check-box/src/androidTest/java/cn/crabapples/checkbox/ExampleInstrumentedTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/check-box/src/main/java/cn/crabapples/checkbox/ClickChangeListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/check-box/src/main/java/cn/crabapples/checkbox/ClickChangeListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/check-box/src/main/java/cn/crabapples/checkbox/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/check-box/src/main/java/cn/crabapples/checkbox/MainActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/check-box/src/test/java/cn/crabapples/checkbox/ExampleUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/check-box/src/test/java/cn/crabapples/checkbox/ExampleUnitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/master/src/main/java/cn/crabapples/master/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/check-box/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/check-box/src/main/res/layout/activity_main.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/config.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image-view/src/androidTest/java/cn/crabapples/imageview/ExampleInstrumentedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/image-view/src/androidTest/java/cn/crabapples/imageview/ExampleInstrumentedTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image-view/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/image-view/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image-view/src/main/java/cn/crabapples/imageview/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/image-view/src/main/java/cn/crabapples/imageview/MainActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image-view/src/test/java/cn/crabapples/imageview/ExampleUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/image-view/src/test/java/cn/crabapples/imageview/ExampleUnitTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/localtion_upload/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/localtion_upload/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/localtion_upload/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/localtion_upload/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image-view/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/image-view/src/main/res/layout/activity_main.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/localtion_upload/src/main/java/cn/crabapples/localtion_upload/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/localtion_upload/src/main/java/cn/crabapples/localtion_upload/MainActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/localtion_upload/src/main/java/cn/crabapples/localtion_upload/MyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/localtion_upload/src/main/java/cn/crabapples/localtion_upload/MyService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/master/src/androidTest/java/cn/crabapples/network/ExampleInstrumentedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/master/src/androidTest/java/cn/crabapples/network/ExampleInstrumentedTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/master/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/master/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/master/src/androidTest/java/cn/crabapples/network/ExampleInstrumentedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/master/src/androidTest/java/cn/crabapples/master/ExampleInstrumentedTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/master/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/master/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/master/src/main/java/cn/crabapples/network/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/master/src/main/java/cn/crabapples/network/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/master/src/main/java/cn/crabapples/network/GetDocUrl.java" beforeDir="false" afterPath="$PROJECT_DIR$/master/src/main/java/cn/crabapples/master/GetDocUrl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/master/src/main/java/cn/crabapples/network/MainActivity.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/master/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/master/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/master/src/test/java/cn/crabapples/network/ExampleUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/master/src/test/java/cn/crabapples/network/ExampleUnitTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/network/src/androidTest/java/cn/crabapples/network/ExampleInstrumentedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/network/src/androidTest/java/cn/crabapples/network/ExampleInstrumentedTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/master/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/master/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/master/src/test/java/cn/crabapples/network/ExampleUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/master/src/test/java/cn/crabapples/master/ExampleUnitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/network/src/androidTest/java/cn/crabapples/network/ExampleInstrumentedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/network/src/androidTest/java/cn/crabapples/master/ExampleInstrumentedTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/network/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/network/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/network/src/main/java/cn/crabapples/network/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/network/src/main/java/cn/crabapples/network/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/network/src/main/java/cn/crabapples/network/GetDocUrl.java" beforeDir="false" afterPath="$PROJECT_DIR$/network/src/main/java/cn/crabapples/master/GetDocUrl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/network/src/main/java/cn/crabapples/network/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/network/src/main/java/cn/crabapples/master/MainActivity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/network/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/network/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/network/src/test/java/cn/crabapples/network/ExampleUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/network/src/test/java/cn/crabapples/network/ExampleUnitTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/radio/src/androidTest/java/cn/crabapples/radio/ExampleInstrumentedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/radio/src/androidTest/java/cn/crabapples/radio/ExampleInstrumentedTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/radio/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/radio/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/radio/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/radio/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/radio/src/test/java/cn/crabapples/radio/ExampleUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/radio/src/test/java/cn/crabapples/radio/ExampleUnitTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/toast/src/androidTest/java/cn/crabapples/toast/ExampleInstrumentedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/toast/src/androidTest/java/cn/crabapples/toast/ExampleInstrumentedTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/toast/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/toast/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/toast/src/main/java/cn/crabapples/toast/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/toast/src/main/java/cn/crabapples/toast/MainActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/toast/src/test/java/cn/crabapples/toast/ExampleUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/toast/src/test/java/cn/crabapples/toast/ExampleUnitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/network/src/test/java/cn/crabapples/network/ExampleUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/network/src/test/java/cn/crabapples/master/ExampleUnitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/radio/src/main/java/cn/crabapples/radio/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/radio/src/main/java/cn/crabapples/radio/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,12 +53,23 @@
         <task path="$PROJECT_DIR$/check-box">
           <activation />
         </task>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/toast">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
             <expand>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="learn-android" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="learn-android" type="f1a62948:ProjectNode" />
+                <item name="Run Configurations" type="7b0102dc:RunConfigurationsNode" />
               </path>
             </expand>
             <select />
@@ -76,8 +78,23 @@
       </state>
     </system>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -114,7 +131,7 @@
       <recent name="cn.crabapples.localtion_upload" />
     </key>
   </component>
-  <component name="RunManager" selected="Android App.check-box">
+  <component name="RunManager" selected="Gradle.learn-android [clean]">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
       <module name="learn-android.check-box" />
       <option name="DEPLOY" value="true" />
@@ -227,7 +244,7 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="learn-android.master" type="AndroidRunConfigurationType" factoryName="Android App">
+    <configuration name="learn-android.master" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
       <module name="learn-android.master" />
       <option name="DEPLOY" value="true" />
       <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
@@ -311,6 +328,34 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="learn-android.timepicker" type="AndroidRunConfigurationType" factoryName="Android App">
+      <module name="learn-android.timepicker" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <Java />
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="learn-android.toast" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
       <module name="learn-android.toast" />
       <option name="DEPLOY" value="true" />
@@ -339,19 +384,87 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="learn-android [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="learn-android [customFunc]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="customFunc" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="learn-android [lintFix]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="lintFix" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.learn-android [clean]" />
+        <item itemvalue="Gradle.learn-android [lintFix]" />
+        <item itemvalue="Gradle.learn-android [customFunc]" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -375,7 +488,8 @@
       <workItem from="1616226836594" duration="6152000" />
       <workItem from="1619464122756" duration="3443000" />
       <workItem from="1619467677134" duration="3325000" />
-      <workItem from="1619498698277" duration="10360000" />
+      <workItem from="1619498698277" duration="11048000" />
+      <workItem from="1619515161100" duration="11236000" />
     </task>
     <servers />
   </component>
@@ -387,7 +501,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/localtion_upload/src/main/java/cn/crabapples/localtion_upload/MainActivity.java</url>
-          <line>44</line>
+          <line>43</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>

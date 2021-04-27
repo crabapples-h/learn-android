@@ -3,7 +3,6 @@ package cn.crabapples.localtion_upload;
 import android.content.Intent;
 import android.location.Location;
 import android.os.Bundle;
-//import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.TextView;
 import androidx.appcompat.app.AppCompatActivity;
@@ -36,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
         @Override
         public void onClick(View view) {
             TextView textView = (TextView) view;
-            textView.setText(Math.random() + ":嗯哼");
+            textView.setText("嗯哼:" + Math.round(Math.random() * 100));
         }
     }
 

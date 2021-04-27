@@ -18,6 +18,7 @@
             <option value="$PROJECT_DIR$/master" />
             <option value="$PROJECT_DIR$/network" />
             <option value="$PROJECT_DIR$/radio" />
+            <option value="$PROJECT_DIR$/timepicker" />
             <option value="$PROJECT_DIR$/toast" />
           </set>
         </option>

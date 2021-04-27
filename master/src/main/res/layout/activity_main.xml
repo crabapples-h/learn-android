@@ -1,17 +1,49 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-              xmlns:tools="http://schemas.android.com/tools"
-              android:layout_width="match_parent"
-              android:layout_height="match_parent"
-              tools:context="cn.crabapples.network.MainActivity"
-              android:orientation="vertical">
-    <EditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/docUrl"
-            android:hint="请输入需要下载的文档地址" />
-    <Button android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/but"/>
-    <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:context="cn.crabapples.master.MainActivity"
+                android:padding="15dp">
+
+    <TextView android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="5dp"
               android:textIsSelectable="true"
-              android:id="@+id/downloadUrl" android:text="下载地址" />
-</LinearLayout>
+              android:id="@+id/title"
+              android:gravity="center"
+              android:textSize="30sp"
+              android:text="@string/title"/>
+
+    <EditText android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_alignParentStart="true"
+              android:layout_alignParentEnd="true"
+              android:layout_below="@id/title"
+              android:id="@+id/username"
+              android:hint="@string/usernameTip"/>
+
+    <EditText android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_below="@id/username"
+              android:layout_alignStart="@id/username"
+              android:layout_alignEnd="@id/username"
+              android:inputType="textPassword"
+              android:id="@+id/password"
+              android:hint="@string/passwordTip"/>
+
+    <Button android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toStartOf="@id/cancel"
+            android:layout_alignTop="@id/cancel"
+            android:id="@+id/submit"
+            android:text="@string/submit"/>
+
+    <Button android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/password"
+            android:layout_alignParentEnd="true"
+            android:layout_margin="5dp"
+            android:id="@+id/cancel"
+            android:text="@string/cancel"/>
+</RelativeLayout>
