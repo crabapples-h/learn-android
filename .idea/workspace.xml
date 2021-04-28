@@ -13,10 +13,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="31ed744b-49f6-49cf-b8af-fcce6cbd3f43" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/check-box/src/main/java/cn/crabapples/checkbox/ClickChangeListener.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/config.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/application/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/src/main/java/cn/crabapples/application/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/application/src/main/java/cn/crabapples/application/activity/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/src/main/java/cn/crabapples/application/checkbox/CheckBoxListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/application/src/main/java/cn/crabapples/application/checkbox/CheckBoxListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/src/main/res/layout/application.xml" beforeDir="false" afterPath="$PROJECT_DIR$/application/src/main/res/layout/application.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/src/main/res/layout/check_box.xml" beforeDir="false" afterPath="$PROJECT_DIR$/application/src/main/res/layout/check_box.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/src/main/res/layout/image_view.xml" beforeDir="false" afterPath="$PROJECT_DIR$/application/src/main/res/layout/image_view.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/src/main/res/layout/radio.xml" beforeDir="false" afterPath="$PROJECT_DIR$/application/src/main/res/layout/radio.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/src/main/res/layout/time_picker.xml" beforeDir="false" afterPath="$PROJECT_DIR$/application/src/main/res/layout/time_picker.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/application/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/progressbar/src/main/java/cn/crabapples/progressbar/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/progressbar/src/main/java/cn/crabapples/progressbar/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/progressbar/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/progressbar/src/main/res/layout/activity_main.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,6 +71,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="valueResourceFile" />
       </list>
     </option>
   </component>
@@ -97,7 +105,7 @@
     <property name="SelectDeploymentTargetsDialog.selectedDevices" value="52326744" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/application/src/main/java/cn/crabapples/application" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/application/src/main/res/values" />
     <property name="memory.settings.postsync.last.time.stamp" value="1619550801162" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -110,6 +118,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\developer\IdeaWorkspace\AndroidProject\learn-android\application\src\main\res\values" />
       <recent name="D:\developer\IdeaWorkspace\AndroidProject\learn-android\application\src\main\java\cn\crabapples\application" />
       <recent name="D:\developer\IdeaWorkspace\AndroidProject\learn-android\application\src\main\res\layout" />
       <recent name="D:\developer\IdeaWorkspace\AndroidProject\learn-android\application\src\main\res\drawable" />
@@ -118,13 +127,14 @@
       <recent name="cn.crabapples" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="cn.crabapples.application.activity" />
+      <recent name="cn.crabapples.application.activitys" />
+      <recent name="cn.crabapples.application.timepicker" />
       <recent name="cn.crabapples.application.radio" />
       <recent name="cn.crabapples.application.checkbox" />
-      <recent name="cn.crabapples.timepicker" />
-      <recent name="cn.crabapples.localtion_upload" />
     </key>
   </component>
-  <component name="RunManager" selected="Android App.learn-android.progressbar">
+  <component name="RunManager" selected="Android App.learn-android.application">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
       <module name="learn-android.check-box" />
       <option name="DEPLOY" value="true" />
@@ -433,13 +443,15 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -540,7 +552,8 @@
       <workItem from="1619498698277" duration="11048000" />
       <workItem from="1619515161100" duration="12023000" />
       <workItem from="1619550707765" duration="1850000" />
-      <workItem from="1619552633125" duration="12003000" />
+      <workItem from="1619552633125" duration="14421000" />
+      <workItem from="1619618549257" duration="3676000" />
     </task>
     <servers />
   </component>

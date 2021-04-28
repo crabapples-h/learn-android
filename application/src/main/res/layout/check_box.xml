@@ -6,24 +6,24 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:visibility="visible"
-        tools:context=".MainActivity">
+        tools:context=".activity.CheckBoxActivity">
 
     <CheckBox android:id="@+id/eatId"
               android:layout_width="wrap_content"
               android:layout_height="wrap_content"
-              android:text="吃饭"/>
+              android:text="@string/eat"/>
 
     <CheckBox android:layout_width="wrap_content"
               android:layout_height="wrap_content"
               android:id="@+id/sleepId"
-              android:text="睡觉"/>
+              android:text="@string/sleep"/>
     <CheckBox android:layout_width="wrap_content"
               android:layout_height="wrap_content"
-              android:id="@+id/hh"
-              android:text="哈哈"/>
+              android:id="@+id/happy"
+              android:text="@string/happy"/>
     <CheckBox android:layout_width="wrap_content"
               android:layout_height="wrap_content"
               android:id="@+id/all"
-              android:text="全选"/>
+              android:text="@string/all"/>
 
 </LinearLayout>

@@ -2,11 +2,7 @@ package cn.crabapples.application.checkbox;
 
 import android.util.Log;
 import android.view.View;
-import android.widget.CheckBox;
 import android.widget.CompoundButton;
-import android.widget.Toast;
-import cn.crabapples.application.MainActivity;
-import cn.crabapples.application.R;
 
 public class CheckBoxListener {
     public static class Click implements View.OnClickListener {

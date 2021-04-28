@@ -18,6 +18,7 @@ public class MainActivity extends AppCompatActivity {
         addProgressBar1(progressBar1).start();
         addProgressBar2(progressBar2).start();
         addProgressBar3(seekBar1).start();
+        seekBar1.setOnSeekBarChangeListener(new SeekBarChangeListener());
     }
 
     Thread addProgressBar1(final ProgressBar progressBar) {
@@ -60,13 +61,19 @@ public class MainActivity extends AppCompatActivity {
     }
 
     class SeekBarChangeListener implements SeekBar.OnSeekBarChangeListener {
+        /**
+         * 开始拖动进度条
+         */
         @Override
         public void onStartTrackingTouch(SeekBar seekBar) {
-
+            System.out.println("onStartTrackingTouch():" + seekBar);
         }
-
+        /**
+         * 结束拖动进度条
+         */
         @Override
         public void onStopTrackingTouch(SeekBar seekBar) {
+            System.out.println("onStopTrackingTouch():" + seekBar);
 
         }
 
@@ -77,7 +84,7 @@ public class MainActivity extends AppCompatActivity {
          */
         @Override
         public void onProgressChanged(SeekBar seekBar, int progress, boolean fromUser) {
-
+            System.out.println("onProgressChanged():" + "seekBar:" + seekBar + "progress:" + progress + "fromUser:" + fromUser);
         }
     }
 }
