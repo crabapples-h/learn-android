@@ -1,3 +1,5 @@
+include ':application'
+include ':progressbar'
 include ':timepicker'
 include ':localtion_upload'
 include 'check-box', 'image-view', 'radio', 'toast','master','network'

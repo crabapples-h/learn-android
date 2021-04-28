@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Application</string>
+    <string name="getTime">获取时间</string>
+    <string name="getDate">获取时间</string>
+</resources>

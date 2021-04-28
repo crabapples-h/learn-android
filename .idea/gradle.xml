@@ -12,11 +12,13 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/application" />
             <option value="$PROJECT_DIR$/check-box" />
             <option value="$PROJECT_DIR$/image-view" />
             <option value="$PROJECT_DIR$/localtion_upload" />
             <option value="$PROJECT_DIR$/master" />
             <option value="$PROJECT_DIR$/network" />
+            <option value="$PROJECT_DIR$/progressbar" />
             <option value="$PROJECT_DIR$/radio" />
             <option value="$PROJECT_DIR$/timepicker" />
             <option value="$PROJECT_DIR$/toast" />
