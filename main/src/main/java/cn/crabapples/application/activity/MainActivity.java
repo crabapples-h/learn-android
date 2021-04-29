@@ -69,7 +69,15 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public void toButton(View view) {
+        Intent intent = new Intent();
+        intent.setClass(MainActivity.this, ButtonActivity.class);
+        startActivity(intent);
+    }
+
     public void showToast(String content, int time) {
         Toast.makeText(MainActivity.this, content, time).show();
     }
+
+
 }

@@ -1,4 +1,15 @@
 <resources>
     <string name="back">back</string>
     <string name="hello_world">hello world!</string>
+
+    <string name="app_name">Application</string>
+    <string name="to_live_demo_activity">To Live Demo</string>
+    <string name="to_check_box_activity">To Check Box</string>
+    <string name="to_image_activity">To Image</string>
+    <string name="to_progress_bar_activity">To Progress Bar</string>
+    <string name="to_radio_activity">To Radio</string>
+    <string name="to_time_picker_activity">To Time Picker</string>
+    <string name="to_change_ui_activity">To Change UI</string>
+    <string name="intentDemo">Intent Demo</string>
+    <string name="to_button">To Button</string>
 </resources>

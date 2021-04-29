@@ -7,7 +7,7 @@
                  android:roundIcon="@mipmap/ic_launcher_round"
                  android:supportsRtl="true"
                  android:theme="@style/AppTheme">
-        <!--可注册多个activity,但只有包含 <intent-filter> 标签的activity为程序默认的activity-->
+        <!--可注册多个activity,但只有包含 <intent_demo-filter> 标签的activity为程序默认的activity-->
         <activity android:name=".activity.MainActivity" android:label="MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
@@ -24,5 +24,6 @@
         <activity android:name=".activity.ProgressBarActivity" android:label="ProgressBarActivity"/>
         <activity android:name=".activity.demo.ChangeUIDemoActivity" android:label="ChangeUIDemoActivity"/>
         <activity android:name=".activity.demo.IntentDemoActivity" android:label="IntentDemoActivity"/>
+        <activity android:name=".activity.ButtonActivity" android:label="ButtonActivity"/>
     </application>
 </manifest>

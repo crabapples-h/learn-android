@@ -1,6 +1,7 @@
 package cn.crabapples.application.activity;
 
 import android.os.Bundle;
+import android.view.View;
 import android.widget.ProgressBar;
 import android.widget.SeekBar;
 import androidx.appcompat.app.AppCompatActivity;
@@ -59,6 +60,9 @@ public class ProgressBarActivity extends AppCompatActivity {
                 e.printStackTrace();
             }
         });
+    }
+
+    public void back(View view) {
     }
 
     class SeekBarChangeListener implements SeekBar.OnSeekBarChangeListener {

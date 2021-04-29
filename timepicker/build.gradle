@@ -1,5 +1,0 @@
-apply plugin: 'com.android.application'
-apply from: "${rootProject.projectDir}/config.gradle"
-
-group = "cn.crabapples"
-description = "this is gradle date、time demo"

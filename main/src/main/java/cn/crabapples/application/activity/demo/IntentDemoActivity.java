@@ -11,7 +11,7 @@ public class IntentDemoActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.time_picker);
+        setContentView(R.layout.intent_demo);
         Intent intent = getIntent();
         String content = intent.getStringExtra("content");
         showToast(content);

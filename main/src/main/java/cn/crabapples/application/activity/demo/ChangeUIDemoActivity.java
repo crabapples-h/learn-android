@@ -27,6 +27,9 @@ public class ChangeUIDemoActivity extends AppCompatActivity {
         }).start();
     }
 
+    public void back(View view) {
+    }
+
 
     class MyThread extends Thread {
         @Override

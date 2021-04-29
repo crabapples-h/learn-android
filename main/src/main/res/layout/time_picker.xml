@@ -16,7 +16,9 @@
                     android:layout_height="wrap_content"
                     android:layout_below="@+id/timePicker"
                     android:text="@string/getTime"
-                    android:id="@+id/getTime"/>
+                    android:id="@+id/getTime"
+                    android:onClick="getTime"/>
+
             <DatePicker
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -27,11 +29,18 @@
                     android:layout_height="wrap_content"
                     android:layout_below="@+id/datePicker"
                     android:text="@string/getDate"
-                    android:id="@+id/getDate"/>
+                    android:id="@+id/getDate"
+                    android:onClick="getDate"/>
 
             <CalendarView android:layout_width="wrap_content"
                           android:layout_height="wrap_content"
                           android:layout_below="@+id/getDate"/>
+
+            <Button android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/back"
+                    android:layout_below="@id/getDate"
+                    android:onClick="back"/>
         </RelativeLayout>
     </ScrollView>
 

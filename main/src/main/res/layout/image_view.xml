@@ -57,6 +57,11 @@
                        android:maxWidth="200dp"
                        android:adjustViewBounds="true"
                        android:scaleType="matrix"/>
+
+            <Button android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/back"
+                    android:onClick="back"/>
         </LinearLayout>
     </ScrollView>
 </FrameLayout>
