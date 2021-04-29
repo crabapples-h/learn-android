@@ -7,6 +7,7 @@ import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 import cn.crabapples.application.R;
 import cn.crabapples.application.activity.demo.ChangeUIDemoActivity;
+import cn.crabapples.application.activity.demo.HandlerDemoActivity;
 import cn.crabapples.application.activity.demo.IntentDemoActivity;
 import cn.crabapples.application.activity.demo.LiveDemoActivity;
 
@@ -75,9 +76,20 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public void toNotice(View view) {
+        Intent intent = new Intent();
+        intent.setClass(MainActivity.this, NotificationActivity.class);
+        startActivity(intent);
+    }
+
     public void showToast(String content, int time) {
         Toast.makeText(MainActivity.this, content, time).show();
     }
 
 
+    public void toHandler(View view) {
+        Intent intent = new Intent();
+        intent.setClass(MainActivity.this, HandlerDemoActivity.class);
+        startActivity(intent);
+    }
 }

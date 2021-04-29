@@ -16,14 +16,14 @@
         </activity>
         <activity android:name=".activity.demo.LiveDemoActivity" android:label="LiveDemoActivity"/>
         <activity android:name=".activity.CheckBoxActivity" android:label="CheckBoxActivity"/>
-        <activity android:name=".activity.ImageActivity" android:label="ImageActivity">
-
-        </activity>
+        <activity android:name=".activity.ImageActivity" android:label="ImageActivity"/>
         <activity android:name=".activity.RadioActivity" android:label="RadioActivity"/>
         <activity android:name=".activity.TimePickerActivity" android:label="TimePickerActivity"/>
         <activity android:name=".activity.ProgressBarActivity" android:label="ProgressBarActivity"/>
         <activity android:name=".activity.demo.ChangeUIDemoActivity" android:label="ChangeUIDemoActivity"/>
         <activity android:name=".activity.demo.IntentDemoActivity" android:label="IntentDemoActivity"/>
         <activity android:name=".activity.ButtonActivity" android:label="ButtonActivity"/>
+        <activity android:name=".activity.NotificationActivity" android:label="NotificationActivity"/>
+        <activity android:name=".activity.demo.HandlerDemoActivity" android:label="HandlerDemoActivity"/>
     </application>
 </manifest>

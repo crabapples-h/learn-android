@@ -57,4 +57,15 @@
             android:text="@string/to_button"
             android:onClick="toButton"/>
 
+    <Button android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/to_notice"
+            android:onClick="toNotice"/>
+
+    <Button android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/to_handler"
+            android:onClick="toHandler"/>
+
+
 </LinearLayout>

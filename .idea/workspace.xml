@@ -6,7 +6,6 @@
     </shared>
   </component>
   <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_CUSTOM_FILTER" value="ButtonActive" />
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="AutoImportSettings">
@@ -14,155 +13,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="31ed744b-49f6-49cf-b8af-fcce6cbd3f43" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/check-box/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/check-box/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/check-box/proguard-rules.pro" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/check-box/settings.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/check-box/src/androidTest/java/cn/crabapples/checkbox/ExampleInstrumentedTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/check-box/src/main/AndroidManifest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/check-box/src/main/java/cn/crabapples/checkbox/MainActivity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/check-box/src/main/java/cn/crabapples/checkbox/OnClickListener.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/check-box/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/check-box/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/check-box/src/main/res/layout/activity_main.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/check-box/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/check-box/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/check-box/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/check-box/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/check-box/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/check-box/src/main/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/check-box/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/check-box/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/check-box/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/check-box/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/check-box/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/check-box/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/check-box/src/main/res/values/colors.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/check-box/src/main/res/values/strings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/check-box/src/main/res/values/styles.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/check-box/src/test/java/cn/crabapples/checkbox/ExampleUnitTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image-view/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image-view/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image-view/proguard-rules.pro" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image-view/src/androidTest/java/cn/crabapples/imageview/ExampleInstrumentedTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image-view/src/main/AndroidManifest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image-view/src/main/java/cn/crabapples/imageview/MainActivity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image-view/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image-view/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image-view/src/main/res/drawable/img.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image-view/src/main/res/drawable/img2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image-view/src/main/res/layout/activity_main.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image-view/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image-view/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image-view/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image-view/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image-view/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image-view/src/main/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image-view/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image-view/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image-view/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image-view/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image-view/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image-view/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image-view/src/main/res/values/colors.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image-view/src/main/res/values/strings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image-view/src/main/res/values/styles.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image-view/src/test/java/cn/crabapples/imageview/ExampleUnitTest.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/main/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/src/main/java/cn/crabapples/application/activity/ImageActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/main/java/cn/crabapples/application/activity/ImageActivity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/src/main/java/cn/crabapples/application/activity/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/main/java/cn/crabapples/application/activity/MainActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/src/main/java/cn/crabapples/application/activity/ProgressBarActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/main/java/cn/crabapples/application/activity/ProgressBarActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/src/main/java/cn/crabapples/application/activity/RadioActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/main/java/cn/crabapples/application/activity/RadioActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/src/main/java/cn/crabapples/application/activity/TimePickerActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/main/java/cn/crabapples/application/activity/TimePickerActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/src/main/java/cn/crabapples/application/activity/demo/ChangeUIDemoActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/main/java/cn/crabapples/application/activity/demo/ChangeUIDemoActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/src/main/java/cn/crabapples/application/activity/demo/IntentDemoActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/main/java/cn/crabapples/application/activity/demo/IntentDemoActivity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/src/main/res/layout/change_ui.xml" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/main/res/layout/change_ui.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/src/main/res/layout/image_view.xml" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/main/res/layout/image_view.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/src/main/res/layout/live_demo.xml" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/main/res/layout/live_demo.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/src/main/res/layout/progress_bar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/main/res/layout/progress_bar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/src/main/res/layout/radio.xml" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/main/res/layout/radio.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/src/main/res/layout/time_picker.xml" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/main/res/layout/time_picker.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/src/main/res/values/main.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/main/src/main/res/values/string.xml" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/main/res/values/string.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/progressbar/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/progressbar/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/progressbar/proguard-rules.pro" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/progressbar/src/androidTest/java/cn/crabapples/progressbar/ExampleInstrumentedTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/progressbar/src/main/AndroidManifest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/progressbar/src/main/java/cn/crabapples/progressbar/MainActivity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/progressbar/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/progressbar/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/progressbar/src/main/res/layout/activity_main.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/progressbar/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/progressbar/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/progressbar/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/progressbar/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/progressbar/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/progressbar/src/main/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/progressbar/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/progressbar/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/progressbar/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/progressbar/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/progressbar/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/progressbar/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/progressbar/src/main/res/values/colors.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/progressbar/src/main/res/values/strings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/progressbar/src/main/res/values/styles.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/progressbar/src/test/java/cn/crabapples/progressbar/ExampleUnitTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/radio/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/radio/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/radio/proguard-rules.pro" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/radio/src/androidTest/java/cn/crabapples/radio/ExampleInstrumentedTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/radio/src/main/AndroidManifest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/radio/src/main/java/cn/crabapples/radio/MainActivity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/radio/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/radio/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/radio/src/main/res/layout/activity_main.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/radio/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/radio/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/radio/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/radio/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/radio/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/radio/src/main/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/radio/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/radio/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/radio/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/radio/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/radio/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/radio/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/radio/src/main/res/values/colors.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/radio/src/main/res/values/strings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/radio/src/main/res/values/styles.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/radio/src/test/java/cn/crabapples/radio/ExampleUnitTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/timepicker/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/timepicker/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/timepicker/proguard-rules.pro" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/timepicker/src/androidTest/java/cn/crabapples/timepicker/ExampleInstrumentedTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/timepicker/src/main/AndroidManifest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/timepicker/src/main/java/cn/crabapples/timepicker/ButtonClickListener.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/timepicker/src/main/java/cn/crabapples/timepicker/MainActivity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/timepicker/src/main/java/cn/crabapples/timepicker/TimePickerChangeListener.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/timepicker/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/timepicker/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/timepicker/src/main/res/layout/activity_main.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/timepicker/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/timepicker/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/timepicker/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/timepicker/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/timepicker/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/timepicker/src/main/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/timepicker/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/timepicker/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/timepicker/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/timepicker/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/timepicker/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/timepicker/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/timepicker/src/main/res/values/colors.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/timepicker/src/main/res/values/strings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/timepicker/src/main/res/values/styles.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/timepicker/src/test/java/cn/crabapples/timepicker/ExampleUnitTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -234,6 +88,9 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/../../../../android-sdk-windows/sources/android-30/android/os/Handler.java" root0="SKIP_HIGHLIGHTING" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -247,7 +104,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="dcbd97b60304" />
-    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2021-04-29T12:39:51.846688300Z" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2021-04-29T16:31:08.711596200Z" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SelectDeploymentTargetsDialog.selectedDevices" value="52326744" />
@@ -271,6 +128,9 @@
       <recent name="D:\developer\IdeaWorkspace\AndroidProject\learn-android\main\src\main\res\values" />
       <recent name="D:\developer\IdeaWorkspace\AndroidProject\learn-android\application\src\main\res\values" />
       <recent name="D:\developer\IdeaWorkspace\AndroidProject\learn-android\application\src\main\res\layout" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\developer\IdeaWorkspace\AndroidProject\learn-android\main\src\main\res\drawable" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="cn.crabapples" />
@@ -564,15 +424,13 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -647,12 +505,12 @@
       <item itemvalue="Android App.learn-android.radio" />
       <item itemvalue="Android App.learn-android.timepicker" />
       <item itemvalue="Android App.learn-android.toast" />
-      <item itemvalue="Gradle.learn-android [clean]" />
-      <item itemvalue="Gradle.learn-android [customFunc]" />
-      <item itemvalue="Gradle.learn-android [lintFix]" />
       <item itemvalue="Android App.learn-android.check-box" />
       <item itemvalue="Android App.learn-android.image-view" />
       <item itemvalue="Android App.learn-android.main" />
+      <item itemvalue="Gradle.learn-android [clean]" />
+      <item itemvalue="Gradle.learn-android [customFunc]" />
+      <item itemvalue="Gradle.learn-android [lintFix]" />
     </list>
     <recent_temporary>
       <list>
@@ -688,7 +546,8 @@
       <workItem from="1619515161100" duration="12023000" />
       <workItem from="1619550707765" duration="1850000" />
       <workItem from="1619552633125" duration="14421000" />
-      <workItem from="1619618549257" duration="28954000" />
+      <workItem from="1619618549257" duration="28995000" />
+      <workItem from="1619705146385" duration="8644000" />
     </task>
     <servers />
   </component>

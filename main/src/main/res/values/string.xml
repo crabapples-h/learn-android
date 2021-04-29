@@ -12,4 +12,6 @@
     <string name="to_change_ui_activity">To Change UI</string>
     <string name="intentDemo">Intent Demo</string>
     <string name="to_button">To Button</string>
+    <string name="to_notice">To Notice</string>
+    <string name="to_handler">To Handler</string>
 </resources>
