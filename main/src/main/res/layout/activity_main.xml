@@ -1,71 +1,73 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-        xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:tools="http://schemas.android.com/tools"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical"
-        tools:context=".activity.MainActivity">
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:orientation="vertical"
+             tools:context=".activity.MainActivity">
+    <ScrollView android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                      android:orientation="vertical">
 
-    <TextView android:layout_width="match_parent"
-              android:layout_height="wrap_content"
-              android:text="Hello World!"
-              android:id="@+id/text"/>
+            <TextView android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:text="Hello World!"
+                      android:id="@+id/text"/>
 
-    <Button android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/to_live_demo_activity"
-            android:onClick="toLiveDemo"/>
+            <Button android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/to_live_demo_activity"
+                    android:onClick="toLiveDemo"/>
 
-    <Button android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/to_check_box_activity"
-            android:onClick="toCheckBox"/>
+            <Button android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/to_check_box_activity"
+                    android:onClick="toCheckBox"/>
 
-    <Button android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/to_image_activity"
-            android:onClick="toImage"/>
+            <Button android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/to_image_activity"
+                    android:onClick="toImage"/>
 
-    <Button android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/to_progress_bar_activity"
-            android:onClick="toProgressBar"/>
+            <Button android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/to_progress_bar_activity"
+                    android:onClick="toProgressBar"/>
 
-    <Button android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/to_radio_activity"
-            android:onClick="toRadio"/>
+            <Button android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/to_radio_activity"
+                    android:onClick="toRadio"/>
 
-    <Button android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/to_time_picker_activity"
-            android:onClick="toTimePicker"/>
+            <Button android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/to_time_picker_activity"
+                    android:onClick="toTimePicker"/>
 
-    <Button android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/to_change_ui_activity"
-            android:onClick="toChangeUI"/>
+            <Button android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/to_change_ui_activity"
+                    android:onClick="toChangeUI"/>
 
-    <Button android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/intentDemo"
-            android:onClick="intentDemo"/>
+            <Button android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/intentDemo"
+                    android:onClick="intentDemo"/>
 
-    <Button android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/to_button"
-            android:onClick="toButton"/>
+            <Button android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/to_button"
+                    android:onClick="toButton"/>
 
-    <Button android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/to_notice"
-            android:onClick="toNotice"/>
+            <Button android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/to_notice"
+                    android:onClick="toNotice"/>
 
-    <Button android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/to_handler"
-            android:onClick="toHandler"/>
-
-
-</LinearLayout>
+            <Button android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/to_handler"
+                    android:onClick="toHandler"/>
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

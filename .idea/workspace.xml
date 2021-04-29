@@ -13,10 +13,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="31ed744b-49f6-49cf-b8af-fcce6cbd3f43" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/main/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/src/main/java/cn/crabapples/application/activity/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/main/java/cn/crabapples/application/activity/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/src/main/java/cn/crabapples/application/activity/demo/HandlerDemoActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/main/java/cn/crabapples/application/activity/demo/HandlerDemoActivity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/src/main/res/values/string.xml" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/main/res/values/string.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/src/main/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/main/res/values/styles.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -547,7 +546,7 @@
       <workItem from="1619550707765" duration="1850000" />
       <workItem from="1619552633125" duration="14421000" />
       <workItem from="1619618549257" duration="28995000" />
-      <workItem from="1619705146385" duration="8644000" />
+      <workItem from="1619705146385" duration="10662000" />
     </task>
     <servers />
   </component>
