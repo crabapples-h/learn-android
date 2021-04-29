@@ -2,9 +2,11 @@ package cn.crabapples.application.activity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 import cn.crabapples.application.R;
 import cn.crabapples.application.activity.demo.ChangeUIDemoActivity;
 import cn.crabapples.application.activity.demo.HandlerDemoActivity;
@@ -12,13 +14,28 @@ import cn.crabapples.application.activity.demo.IntentDemoActivity;
 import cn.crabapples.application.activity.demo.LiveDemoActivity;
 
 public class MainActivity extends AppCompatActivity {
-    /**
-     * 在Activity第一次创建时被调用
-     */
+    private final String TAG = "MainActivity";
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        Toolbar toolbar = findViewById(R.id.toolBar);
+        toolbar.setNavigationOnClickListener(view -> {
+            printLog("点击了icon");
+        });
+    }
+
+    public void showToast(String content, int time) {
+        Toast.makeText(MainActivity.this, content, time).show();
+    }
+
+    public void printLog(String content) {
+        Log.i(TAG, content);
+    }
+
+    public void back(View view) {
+        printLog("点击了导航栏");
     }
 
     public void toLiveDemo(View view) {
@@ -82,14 +99,12 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
-    public void showToast(String content, int time) {
-        Toast.makeText(MainActivity.this, content, time).show();
-    }
-
 
     public void toHandler(View view) {
         Intent intent = new Intent();
         intent.setClass(MainActivity.this, HandlerDemoActivity.class);
         startActivity(intent);
     }
+
+
 }

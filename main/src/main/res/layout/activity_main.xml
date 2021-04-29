@@ -2,13 +2,35 @@
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
              xmlns:tools="http://schemas.android.com/tools"
              android:layout_width="match_parent"
-             android:layout_height="match_parent"
+             android:layout_height="match_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
              android:orientation="vertical"
              tools:context=".activity.MainActivity">
     <ScrollView android:layout_width="match_parent" android:layout_height="wrap_content">
         <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
                       android:orientation="vertical">
-
+            <androidx.appcompat.widget.Toolbar
+                    android:layout_width="match_parent"
+                    android:layout_height="?attr/actionBarSize"
+                    android:background="#6B9853"
+                    app:navigationIcon="@drawable/left"
+                    android:onClick="back"
+                    android:id="@+id/toolBar">
+                <TextView android:layout_width="wrap_content"
+                          android:layout_height="match_parent"
+                          android:text="Hello World!"
+                          android:layout_gravity="center"
+                          android:gravity="center"/>
+            </androidx.appcompat.widget.Toolbar>
+            <androidx.appcompat.widget.Toolbar
+                    android:layout_width="match_parent"
+                    android:layout_height="?attr/actionBarSize"
+                    android:background="#86E8E2"
+                    app:title="标题"
+                    app:subtitle="子标题"
+                    app:titleMarginStart="90dp"
+                    app:navigationIcon="@drawable/left"
+                    app:titleTextColor="#ff0000"
+                    android:onClick="back"/>
             <TextView android:layout_width="match_parent"
                       android:layout_height="wrap_content"
                       android:text="Hello World!"
@@ -68,6 +90,17 @@
                     android:layout_height="wrap_content"
                     android:text="@string/to_handler"
                     android:onClick="toHandler"/>
+
+            <Button android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/to_handler"
+                    android:onClick="toHandler"/>
+
+            <Button android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/to_handler"
+                    android:onClick="toHandler"/>
+
         </LinearLayout>
     </ScrollView>
 </FrameLayout>
