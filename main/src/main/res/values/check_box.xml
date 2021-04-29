@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="eat">吃饭</string>
+    <string name="sleep">睡觉</string>
+    <string name="happy">哈哈</string>
+    <string name="all">全选</string>
+</resources>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="cn.crabapples.application">
+    <application android:allowBackup="true"
+                 android:icon="@mipmap/ic_launcher"
+                 android:label="@string/app_name"
+                 android:roundIcon="@mipmap/ic_launcher_round"
+                 android:supportsRtl="true"
+                 android:theme="@style/AppTheme">
+        <!--可注册多个activity,但只有包含 <intent-filter> 标签的activity为程序默认的activity-->
+        <activity android:name=".activity.MainActivity" android:label="MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.demo.LiveDemoActivity" android:label="LiveDemoActivity"/>
+        <activity android:name=".activity.CheckBoxActivity" android:label="CheckBoxActivity"/>
+        <activity android:name=".activity.ImageActivity" android:label="ImageActivity">
+
+        </activity>
+        <activity android:name=".activity.RadioActivity" android:label="RadioActivity"/>
+        <activity android:name=".activity.TimePickerActivity" android:label="TimePickerActivity"/>
+        <activity android:name=".activity.ProgressBarActivity" android:label="ProgressBarActivity"/>
+        <activity android:name=".activity.demo.ChangeUIDemoActivity" android:label="ChangeUIDemoActivity"/>
+        <activity android:name=".activity.demo.IntentDemoActivity" android:label="IntentDemoActivity"/>
+    </application>
+</manifest>

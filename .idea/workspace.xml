@@ -13,17 +13,90 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="31ed744b-49f6-49cf-b8af-fcce6cbd3f43" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/application/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/application/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/src/main/java/cn/crabapples/application/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/application/src/main/java/cn/crabapples/application/activity/MainActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/src/main/java/cn/crabapples/application/checkbox/CheckBoxListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/application/src/main/java/cn/crabapples/application/checkbox/CheckBoxListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/src/main/res/layout/application.xml" beforeDir="false" afterPath="$PROJECT_DIR$/application/src/main/res/layout/application.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/src/main/res/layout/check_box.xml" beforeDir="false" afterPath="$PROJECT_DIR$/application/src/main/res/layout/check_box.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/src/main/res/layout/image_view.xml" beforeDir="false" afterPath="$PROJECT_DIR$/application/src/main/res/layout/image_view.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/src/main/res/layout/radio.xml" beforeDir="false" afterPath="$PROJECT_DIR$/application/src/main/res/layout/radio.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/src/main/res/layout/time_picker.xml" beforeDir="false" afterPath="$PROJECT_DIR$/application/src/main/res/layout/time_picker.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/application/src/main/res/values/strings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/progressbar/src/main/java/cn/crabapples/progressbar/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/progressbar/src/main/java/cn/crabapples/progressbar/MainActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/progressbar/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/progressbar/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/src/main/java/cn/crabapples/application/activity/MainActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/src/main/java/cn/crabapples/application/activity/demo/ChangeUIDemoActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/main/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/proguard-rules.pro" beforeDir="false" afterPath="$PROJECT_DIR$/main/proguard-rules.pro" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/src/androidTest/java/cn/crabapples/application/ExampleInstrumentedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/androidTest/java/cn/crabapples/application/ExampleInstrumentedTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/src/main/java/cn/crabapples/application/activity/CheckBoxActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/main/java/cn/crabapples/application/activity/CheckBoxActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/src/main/java/cn/crabapples/application/activity/Demo1Activity.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/main/java/cn/crabapples/application/activity/demo/IntentDemoActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/src/main/java/cn/crabapples/application/activity/Demo2Activity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/src/main/java/cn/crabapples/application/activity/ImageActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/main/java/cn/crabapples/application/activity/ImageActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/src/main/java/cn/crabapples/application/activity/MainActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/src/main/java/cn/crabapples/application/activity/RadioActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/main/java/cn/crabapples/application/activity/RadioActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/src/main/java/cn/crabapples/application/activity/TimePickerActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/main/java/cn/crabapples/application/activity/TimePickerActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/src/main/java/cn/crabapples/application/checkbox/CheckBoxListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/src/main/java/cn/crabapples/application/radio/RadioListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/src/main/java/cn/crabapples/application/timepicker/TimePickerListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/src/main/res/drawable/img.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/src/main/res/layout/application.xml" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/src/main/res/layout/check_box.xml" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/main/res/layout/check_box.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/src/main/res/layout/image_view.xml" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/main/res/layout/image_view.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/src/main/res/layout/radio.xml" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/main/res/layout/radio.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/src/main/res/layout/time_picker.xml" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/main/res/layout/time_picker.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/src/main/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/src/main/res/values/check_box.xml" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/main/res/values/check_box.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/main/res/values/colors.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/src/main/res/values/radio.xml" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/main/res/values/radio.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/src/main/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/main/res/values/styles.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/src/main/res/values/time_picker.xml" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/main/res/values/time_picker.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/src/test/java/cn/crabapples/application/ExampleUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/test/java/cn/crabapples/application/ExampleUnitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/check-box/src/main/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/check-box/src/main/res/values/styles.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image-view/src/main/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/image-view/src/main/res/values/styles.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/localtion_upload/src/main/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/localtion_upload/src/main/res/values/styles.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/master/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/master/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/master/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/master/src/androidTest/java/cn/crabapples/master/ExampleInstrumentedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/master/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/master/src/main/java/cn/crabapples/master/ButtonClickListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/master/src/main/java/cn/crabapples/master/GetDocUrl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/master/src/main/java/cn/crabapples/master/MainActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/master/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/master/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/master/src/main/res/layout/activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/master/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/master/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/master/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/master/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/master/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/master/src/main/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/master/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/master/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/master/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/master/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/master/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/master/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/master/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/master/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/master/src/main/res/values/styles.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/master/src/main/res/xml/network_security_config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/master/src/test/java/cn/crabapples/master/ExampleUnitTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/network/src/main/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/network/src/main/res/values/styles.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/progressbar/src/main/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/progressbar/src/main/res/values/styles.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/radio/src/main/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/radio/src/main/res/values/styles.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/timepicker/src/main/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/timepicker/src/main/res/values/styles.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/toast/src/main/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/toast/src/main/res/values/styles.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +121,9 @@
         <task path="$PROJECT_DIR$/toast">
           <activation />
         </task>
+        <task path="$PROJECT_DIR$/main">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
             <expand>
@@ -58,7 +134,13 @@
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="learn-android" type="f1a62948:ProjectNode" />
-                <item name="Run Configurations" type="7b0102dc:RunConfigurationsNode" />
+                <item name="main" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="learn-android" type="f1a62948:ProjectNode" />
+                <item name="main" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
               </path>
             </expand>
             <select />
@@ -105,8 +187,8 @@
     <property name="SelectDeploymentTargetsDialog.selectedDevices" value="52326744" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/application/src/main/res/values" />
-    <property name="memory.settings.postsync.last.time.stamp" value="1619550801162" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/main/src/main/res/drawable" />
+    <property name="memory.settings.postsync.last.time.stamp" value="1619643761175" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -118,10 +200,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\developer\IdeaWorkspace\AndroidProject\learn-android\main\src\main\res\drawable" />
+      <recent name="D:\developer\IdeaWorkspace\AndroidProject\learn-android\main\src\main\res\values" />
       <recent name="D:\developer\IdeaWorkspace\AndroidProject\learn-android\application\src\main\res\values" />
-      <recent name="D:\developer\IdeaWorkspace\AndroidProject\learn-android\application\src\main\java\cn\crabapples\application" />
       <recent name="D:\developer\IdeaWorkspace\AndroidProject\learn-android\application\src\main\res\layout" />
-      <recent name="D:\developer\IdeaWorkspace\AndroidProject\learn-android\application\src\main\res\drawable" />
+      <recent name="D:\developer\IdeaWorkspace\AndroidProject\learn-android\application\src\main\java\cn\crabapples\application" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="cn.crabapples" />
@@ -134,7 +217,7 @@
       <recent name="cn.crabapples.application.checkbox" />
     </key>
   </component>
-  <component name="RunManager" selected="Android App.learn-android.application">
+  <component name="RunManager" selected="Android App.learn-android.main">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
       <module name="learn-android.check-box" />
       <option name="DEPLOY" value="true" />
@@ -163,36 +246,8 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="check-box" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+    <configuration name="learn-android.check-box" type="AndroidRunConfigurationType" factoryName="Android App">
       <module name="learn-android.check-box" />
-      <option name="DEPLOY" value="true" />
-      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
-      <option name="DEPLOY_AS_INSTANT" value="false" />
-      <option name="ARTIFACT_NAME" value="" />
-      <option name="PM_INSTALL_OPTIONS" value="" />
-      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
-      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
-      <option name="MODE" value="default_activity" />
-      <option name="CLEAR_LOGCAT" value="false" />
-      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
-      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
-      <option name="FORCE_STOP_RUNNING_APP" value="true" />
-      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
-      <option name="DEBUGGER_TYPE" value="Java" />
-      <Java />
-      <Profilers>
-        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
-        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
-        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
-      </Profilers>
-      <option name="DEEP_LINK" value="" />
-      <option name="ACTIVITY_CLASS" value="" />
-      <method v="2">
-        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="learn-android.application" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
-      <module name="learn-android.application" />
       <option name="DEPLOY" value="true" />
       <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
       <option name="DEPLOY_AS_INSTANT" value="false" />
@@ -219,7 +274,7 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="learn-android.image-view" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+    <configuration name="learn-android.image-view" type="AndroidRunConfigurationType" factoryName="Android App">
       <module name="learn-android.image-view" />
       <option name="DEPLOY" value="true" />
       <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
@@ -275,8 +330,8 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="learn-android.master" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
-      <module name="learn-android.master" />
+    <configuration name="learn-android.main" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="learn-android.main" />
       <option name="DEPLOY" value="true" />
       <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
       <option name="DEPLOY_AS_INSTANT" value="false" />
@@ -519,6 +574,20 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Android App.learn-android.localtion_upload" />
+      <item itemvalue="Android App.learn-android.network" />
+      <item itemvalue="Android App.learn-android.progressbar" />
+      <item itemvalue="Android App.learn-android.radio" />
+      <item itemvalue="Android App.learn-android.timepicker" />
+      <item itemvalue="Android App.learn-android.toast" />
+      <item itemvalue="Gradle.learn-android [clean]" />
+      <item itemvalue="Gradle.learn-android [customFunc]" />
+      <item itemvalue="Gradle.learn-android [lintFix]" />
+      <item itemvalue="Android App.learn-android.check-box" />
+      <item itemvalue="Android App.learn-android.image-view" />
+      <item itemvalue="Android App.learn-android.main" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.learn-android [clean]" />
@@ -553,7 +622,7 @@
       <workItem from="1619515161100" duration="12023000" />
       <workItem from="1619550707765" duration="1850000" />
       <workItem from="1619552633125" duration="14421000" />
-      <workItem from="1619618549257" duration="3676000" />
+      <workItem from="1619618549257" duration="24092000" />
     </task>
     <servers />
   </component>

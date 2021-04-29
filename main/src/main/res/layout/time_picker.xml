@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".activity.TimePickerActivity">
+    <ScrollView android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TimePicker android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/timePicker"/>
+
+            <Button android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/timePicker"
+                    android:text="@string/getTime"
+                    android:id="@+id/getTime"/>
+            <DatePicker
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/getTime"
+                    android:id="@+id/datePicker"/>
+
+            <Button android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/datePicker"
+                    android:text="@string/getDate"
+                    android:id="@+id/getDate"/>
+
+            <CalendarView android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:layout_below="@+id/getDate"/>
+        </RelativeLayout>
+    </ScrollView>
+
+</FrameLayout>
