@@ -41,7 +41,7 @@ public class NotificationActivity extends AppCompatActivity {
         Notification notification = new NotificationCompat.Builder(NotificationActivity.this, "crabapples")
                 .setContentTitle("标题")
                 .setContentText("内容")
-                .setSmallIcon(R.drawable.icon)
+                .setSmallIcon(R.drawable.icon_menus)
                 .setColor(Color.parseColor("#FF0000"))
                 .setLargeIcon(BitmapFactory.decodeResource(getResources(), R.drawable.img))
                 .setContentIntent(pendingIntent)

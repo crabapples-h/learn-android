@@ -25,5 +25,6 @@
         <activity android:name=".activity.ButtonActivity" android:label="ButtonActivity"/>
         <activity android:name=".activity.NotificationActivity" android:label="NotificationActivity"/>
         <activity android:name=".activity.demo.HandlerDemoActivity" android:label="HandlerDemoActivity"/>
+        <activity android:name=".activity.demo.AlertDialogActivity" android:label="AlertDialogActivity"/>
     </application>
 </manifest>

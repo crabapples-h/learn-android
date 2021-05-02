@@ -8,10 +8,7 @@ import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 import cn.crabapples.application.R;
-import cn.crabapples.application.activity.demo.ChangeUIDemoActivity;
-import cn.crabapples.application.activity.demo.HandlerDemoActivity;
-import cn.crabapples.application.activity.demo.IntentDemoActivity;
-import cn.crabapples.application.activity.demo.LiveDemoActivity;
+import cn.crabapples.application.activity.demo.*;
 
 public class MainActivity extends AppCompatActivity {
     private final String TAG = "MainActivity";
@@ -21,6 +18,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         Toolbar toolbar = findViewById(R.id.toolBar);
+        toolbar.setNavigationIcon(null);
         toolbar.setNavigationOnClickListener(view -> {
             printLog("点击了icon");
         });
@@ -99,12 +97,16 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
-
     public void toHandler(View view) {
         Intent intent = new Intent();
         intent.setClass(MainActivity.this, HandlerDemoActivity.class);
         startActivity(intent);
     }
 
+    public void toDialog(View view) {
+        Intent intent = new Intent();
+        intent.setClass(MainActivity.this, AlertDialogActivity.class);
+        startActivity(intent);
+    }
 
 }

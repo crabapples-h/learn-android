@@ -13,10 +13,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="31ed744b-49f6-49cf-b8af-fcce6cbd3f43" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/main/src/main/res/drawable/left.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/src/main/java/cn/crabapples/application/activity/demo/AlertDialogActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/src/main/res/drawable/icon_home.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/src/main/res/drawable/icon_menus.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/main/AndroidManifest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/src/main/java/cn/crabapples/application/activity/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/main/java/cn/crabapples/application/activity/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/src/main/java/cn/crabapples/application/activity/NotificationActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/main/java/cn/crabapples/application/activity/NotificationActivity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/src/main/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/main/res/values/styles.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/src/main/res/values/string.xml" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/main/res/values/string.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,12 +60,6 @@
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="learn-android" type="f1a62948:ProjectNode" />
-                <item name="main" type="2d1252cf:ModuleNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="learn-android" type="f1a62948:ProjectNode" />
-                <item name="main" type="2d1252cf:ModuleNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
               </path>
             </expand>
@@ -88,9 +88,6 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/../../../../android-sdk-windows/sources/android-30/android/os/Handler.java" root0="SKIP_HIGHLIGHTING" />
-  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -99,6 +96,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1nGmMp42wtq6GI3rxwAsvJV68Ap" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
@@ -110,24 +108,24 @@
     <property name="SelectDeploymentTargetsDialog.selectedDevices" value="52326744" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/main/src/main/res/drawable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/main/src/main/res/layout" />
     <property name="memory.settings.postsync.last.time.stamp" value="1619643761175" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="recommended.upgrade.last.time.stamp" value="1616228183811" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
     <property name="show.unlinked.gradle.project.popup" value="true" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/main/src/main/res/layout" />
+      <recent name="$PROJECT_DIR$/main/src/main/res/drawable" />
       <recent name="D:\developer\IdeaWorkspace\AndroidProject\learn-android\main\src\main\res\drawable" />
       <recent name="D:\developer\IdeaWorkspace\AndroidProject\learn-android\main\src\main\res\layout" />
       <recent name="D:\developer\IdeaWorkspace\AndroidProject\learn-android\main\src\main\res\values" />
-      <recent name="D:\developer\IdeaWorkspace\AndroidProject\learn-android\application\src\main\res\values" />
-      <recent name="D:\developer\IdeaWorkspace\AndroidProject\learn-android\application\src\main\res\layout" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\developer\IdeaWorkspace\AndroidProject\learn-android\main\src\main\res\drawable" />
@@ -136,11 +134,11 @@
       <recent name="cn.crabapples" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="cn.crabapples.application.activity.demo" />
       <recent name="cn.crabapples.application.activity" />
       <recent name="cn.crabapples.application.activitys" />
       <recent name="cn.crabapples.application.timepicker" />
       <recent name="cn.crabapples.application.radio" />
-      <recent name="cn.crabapples.application.checkbox" />
     </key>
   </component>
   <component name="RunManager" selected="Android App.learn-android.main">
@@ -424,17 +422,6 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="learn-android [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -548,11 +535,27 @@
       <workItem from="1619552633125" duration="14421000" />
       <workItem from="1619618549257" duration="28995000" />
       <workItem from="1619705146385" duration="12842000" />
+      <workItem from="1619761453514" duration="1617000" />
+      <workItem from="1619765115684" duration="4781000" />
+      <workItem from="1619770712648" duration="8127000" />
+      <workItem from="1619936512495" duration="1815000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

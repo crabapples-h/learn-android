@@ -14,4 +14,5 @@
     <string name="to_button">To Button</string>
     <string name="to_notice">To Notice</string>
     <string name="to_handler">To Handler</string>
+    <string name="to_dialog">To Dialog</string>
 </resources>
