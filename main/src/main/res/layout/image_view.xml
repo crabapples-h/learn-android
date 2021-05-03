@@ -15,44 +15,44 @@
             <!--宽高等比例缩放后(宽高可能不会填满)，居中放入容器中-->
             <ImageView android:layout_width="match_parent"
                        android:layout_height="100dp"
-                       android:src="@drawable/img"
+                       android:src="@drawable/image"
                        android:scaleType="fitCenter"/>
             <!--宽高等比例缩放后(宽高可能不会填满)，靠左上放入容器中-->
             <ImageView android:layout_width="match_parent"
                        android:layout_height="100dp"
-                       android:src="@drawable/img"
+                       android:src="@drawable/image"
                        android:scaleType="fitStart"/>
             <!--宽高等比例缩放后(宽高可能不会填满)，靠右下放入容器中-->
             <ImageView android:layout_width="match_parent"
                        android:layout_height="100dp"
-                       android:src="@drawable/img"
+                       android:src="@drawable/image"
                        android:scaleType="fitEnd"/>
             <!--宽高独立缩放，填满容器-->
             <ImageView android:layout_width="match_parent"
                        android:layout_height="100dp"
-                       android:src="@drawable/img"
+                       android:src="@drawable/image"
                        android:scaleType="fitXY"/>
 
             <!--居中放入容器(超出部分自动剪裁)-->
             <ImageView android:layout_width="match_parent"
                        android:layout_height="100dp"
-                       android:src="@drawable/img"
+                       android:src="@drawable/image"
                        android:scaleType="center"/>
             <!--等比例缩放后放入容器-->
             <ImageView android:layout_width="match_parent"
                        android:layout_height="100dp"
-                       android:src="@drawable/img"
+                       android:src="@drawable/image"
                        android:scaleType="centerInside"/>
             <!--等比例缩小较短的一边后，长边自动剪裁(宽高一定会填满)-->
             <ImageView android:layout_width="match_parent"
                        android:layout_height="100dp"
-                       android:src="@drawable/img"
+                       android:src="@drawable/image"
                        android:scaleType="centerCrop"/>
 
             <!--居中放入容器(超出部分自动剪裁)-->
             <ImageView android:layout_width="wrap_content"
                        android:layout_height="wrap_content"
-                       android:src="@drawable/img"
+                       android:src="@drawable/image"
                        android:maxHeight="200dp"
                        android:maxWidth="200dp"
                        android:adjustViewBounds="true"

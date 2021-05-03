@@ -43,7 +43,7 @@ public class NotificationActivity extends AppCompatActivity {
                 .setContentText("内容")
                 .setSmallIcon(R.drawable.icon_menus)
                 .setColor(Color.parseColor("#FF0000"))
-                .setLargeIcon(BitmapFactory.decodeResource(getResources(), R.drawable.img))
+                .setLargeIcon(BitmapFactory.decodeResource(getResources(), R.drawable.image))
                 .setContentIntent(pendingIntent)
                 .setAutoCancel(true)
                 .setWhen(System.currentTimeMillis())

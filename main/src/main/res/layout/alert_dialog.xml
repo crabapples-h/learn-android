@@ -5,22 +5,14 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        tools:context=".activity.MainActivity">
+        tools:context=".activity.demo.AlertDialogActivity">
 
     <Button android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="触摸"
-            android:id="@+id/touch"/>
+            android:onClick="showDialog"/>
 
     <Button android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="点击"
-            android:id="@+id/click"/>
-
-    <Button android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="长按"
-            android:id="@+id/longClick"/>
-
-
+            android:text="@string/back"
+            android:onClick="back"/>
 </LinearLayout>

@@ -13,23 +13,28 @@ public class AlertDialogActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.intent_demo);
-        AlertDialog.Builder builder = new AlertDialog.Builder(AlertDialogActivity.this);
-        builder.create();
-        builder.setTitle("测试");
-        builder.setMessage("这是内容");
-        builder.setNegativeButton("按钮1", null);
-        builder.setNeutralButton("按钮2",null);
-        builder.setPositiveButton("按钮3",null);
-        builder.show();
-//        Intent intent = getIntent();
-//        String content = intent.getStringExtra("content");
-//        showToast(content);
+        setContentView(R.layout.alert_dialog);
+    }
+
+    public void showDialog(View view) {
+        AlertDialog alertDialog = new AlertDialog.Builder(AlertDialogActivity.this)
+                .setIcon(R.drawable.icon_menus)
+                .setTitle("提示~~~")
+                .setMessage("这个是一段提示")
+                .setNegativeButton("左边按钮", (dialog, which) -> {
+
+                })
+                .setNeutralButton("中间按钮", null)
+                .setPositiveButton("右边按钮", null)
+                .create();
+        alertDialog.show();
     }
 
     public void showToast(String content) {
         Toast.makeText(AlertDialogActivity.this, content, Toast.LENGTH_SHORT).show();
     }
 
+    public void back(View view) {
+    }
 
 }
