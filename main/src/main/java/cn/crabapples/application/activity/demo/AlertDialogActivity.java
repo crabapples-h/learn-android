@@ -2,6 +2,7 @@ package cn.crabapples.application.activity.demo;
 
 import android.content.DialogInterface;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Toast;
 import androidx.appcompat.app.AlertDialog;
@@ -9,6 +10,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import cn.crabapples.application.R;
 
 public class AlertDialogActivity extends AppCompatActivity {
+    private final String TAG = "AlertDialogActivity";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,18 +23,9 @@ public class AlertDialogActivity extends AppCompatActivity {
                 .setIcon(R.drawable.icon_menus)
                 .setTitle("提示~~~")
                 .setMessage("这个是一段提示")
-                .setNegativeButton("左边按钮", (dialog, which) -> {
-                    System.err.println(dialog);
-                    System.err.println(which);
-                })
-                .setNeutralButton("中间按钮", (dialog, which) -> {
-                    System.err.println(dialog);
-                    System.err.println(which);
-                })
-                .setPositiveButton("右边按钮", (dialog, which) -> {
-                    System.err.println(dialog);
-                    System.err.println(which);
-                })
+                .setNegativeButton("左边按钮", (dialog, which) -> Log.i(TAG, "左边按钮-->" + which))
+                .setNeutralButton("中间按钮", (dialog, which) -> Log.i(TAG, "中间按钮-->" + which))
+                .setPositiveButton("右边按钮", (dialog, which) -> Log.i(TAG, "右边按钮-->" + which))
                 .create();
         alertDialog.show();
     }
