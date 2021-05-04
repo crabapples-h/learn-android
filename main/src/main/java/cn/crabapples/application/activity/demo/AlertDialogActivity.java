@@ -22,10 +22,17 @@ public class AlertDialogActivity extends AppCompatActivity {
                 .setTitle("提示~~~")
                 .setMessage("这个是一段提示")
                 .setNegativeButton("左边按钮", (dialog, which) -> {
-
+                    System.err.println(dialog);
+                    System.err.println(which);
                 })
-                .setNeutralButton("中间按钮", null)
-                .setPositiveButton("右边按钮", null)
+                .setNeutralButton("中间按钮", (dialog, which) -> {
+                    System.err.println(dialog);
+                    System.err.println(which);
+                })
+                .setPositiveButton("右边按钮", (dialog, which) -> {
+                    System.err.println(dialog);
+                    System.err.println(which);
+                })
                 .create();
         alertDialog.show();
     }
