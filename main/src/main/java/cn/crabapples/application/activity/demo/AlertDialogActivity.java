@@ -26,6 +26,7 @@ public class AlertDialogActivity extends AppCompatActivity {
                 .setNegativeButton("左边按钮", (dialog, which) -> Log.i(TAG, "左边按钮-->" + which))
                 .setNeutralButton("中间按钮", (dialog, which) -> Log.i(TAG, "中间按钮-->" + which))
                 .setPositiveButton("右边按钮", (dialog, which) -> Log.i(TAG, "右边按钮-->" + which))
+                .setView(R.layout.dialog_module)
                 .create();
         alertDialog.show();
     }
