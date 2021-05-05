@@ -13,7 +13,7 @@ public class CheckBoxActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.check_box);
+        setContentView(R.layout.activity_check_box);
         Intent intent = getIntent();
         String content = intent.getStringExtra("content");
         showToast(content, 5000);

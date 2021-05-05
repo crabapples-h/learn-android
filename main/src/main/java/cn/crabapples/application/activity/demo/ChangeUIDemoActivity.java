@@ -12,7 +12,7 @@ public class ChangeUIDemoActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.change_ui);
+        setContentView(R.layout.activity_change_ui);
         textView = findViewById(R.id.text1);
     }
 

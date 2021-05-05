@@ -4,12 +4,13 @@
         xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical"
-        tools:context=".activity.demo.LiveDemoActivity">
-    <TextView android:layout_width="match_parent"
-              android:layout_height="wrap_content"
-              android:id="@+id/content"
-              android:text="@string/live_content1"/>
+        android:orientation="vertical">
+
+    <Button android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="显示popup"
+            android:onClick="showPopup"/>
+
     <Button android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/back"

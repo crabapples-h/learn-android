@@ -109,4 +109,9 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public void toPopupWindow(View view) {
+        Intent intent = new Intent();
+        intent.setClass(MainActivity.this, PopupWindowActivity.class);
+        startActivity(intent);
+    }
 }

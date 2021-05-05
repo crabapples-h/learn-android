@@ -1,6 +1,5 @@
 package cn.crabapples.application.activity.demo;
 
-import android.content.DialogInterface;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -15,7 +14,7 @@ public class AlertDialogActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.alert_dialog);
+        setContentView(R.layout.activity_alert_dialog);
     }
 
     public void showDialog(View view) {
@@ -26,7 +25,7 @@ public class AlertDialogActivity extends AppCompatActivity {
                 .setNegativeButton("左边按钮", (dialog, which) -> Log.i(TAG, "左边按钮-->" + which))
                 .setNeutralButton("中间按钮", (dialog, which) -> Log.i(TAG, "中间按钮-->" + which))
                 .setPositiveButton("右边按钮", (dialog, which) -> Log.i(TAG, "右边按钮-->" + which))
-                .setView(R.layout.dialog_module)
+                .setView(R.layout.module_dialog)
                 .create();
         alertDialog.show();
     }

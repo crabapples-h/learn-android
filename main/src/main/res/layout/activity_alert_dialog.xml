@@ -4,11 +4,13 @@
         xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".activity.TimePickerActivity">
+        android:orientation="vertical"
+        tools:context=".activity.demo.AlertDialogActivity">
 
-    <TextView android:layout_width="match_parent"
-              android:layout_height="wrap_content"
-              android:id="@+id/intentText"/>
+    <Button android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="显示弹窗"
+            android:onClick="showDialog"/>
 
     <Button android:layout_width="match_parent"
             android:layout_height="wrap_content"

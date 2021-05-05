@@ -15,7 +15,7 @@ public class LiveDemoActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.live_demo);
+        setContentView(R.layout.activity_live_demo);
     }
 
     public void back(View view) {

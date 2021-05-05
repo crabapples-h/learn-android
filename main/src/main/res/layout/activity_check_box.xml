@@ -10,25 +10,25 @@
 
     <CheckBox android:layout_width="wrap_content"
               android:layout_height="wrap_content"
-              android:text="@string/eat"
+              android:text="吃饭"
               android:id="@+id/eat"
               android:onClick="checkBoxClick"/>
 
     <CheckBox android:layout_width="wrap_content"
               android:layout_height="wrap_content"
-              android:text="@string/sleep"
+              android:text="睡觉"
               android:id="@+id/sleep"
               android:onClick="checkBoxClick"/>
 
     <CheckBox android:layout_width="wrap_content"
               android:layout_height="wrap_content"
-              android:text="@string/happy"
+              android:text="h哈哈"
               android:id="@+id/happy"
               android:onClick="checkBoxClick"/>
 
     <CheckBox android:layout_width="wrap_content"
               android:layout_height="wrap_content"
-              android:text="@string/all"
+              android:text="全选"
               android:id="@+id/selectAll"
               android:onClick="selectAll"/>
 

@@ -15,7 +15,7 @@
             <Button android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_below="@+id/timePicker"
-                    android:text="@string/getTime"
+                    android:text="获取时间"
                     android:id="@+id/getTime"
                     android:onClick="getTime"/>
 
@@ -28,7 +28,7 @@
             <Button android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_below="@+id/datePicker"
-                    android:text="@string/getDate"
+                    android:text="获取日期"
                     android:id="@+id/getDate"
                     android:onClick="getDate"/>
 

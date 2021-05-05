@@ -13,7 +13,7 @@ public class TimePickerActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.time_picker);
+        setContentView(R.layout.activity_time_picker);
         TimePicker timePicker = findViewById(R.id.timePicker);
         timePicker.setOnTimeChangedListener((view, hourOfDay, minute) -> {
             String time = "时间:" + hourOfDay + ":" + minute;

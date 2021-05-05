@@ -5,15 +5,14 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        tools:context=".activity.demo.AlertDialogActivity">
-
-    <Button android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/text"
-            android:onClick="showDialog"/>
-
+        tools:context=".activity.demo.LiveDemoActivity">
+    <TextView android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:id="@+id/content"
+              android:text="hello，world"/>
     <Button android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/back"
             android:onClick="back"/>
+
 </LinearLayout>

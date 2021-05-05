@@ -15,7 +15,7 @@ public class ButtonActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.button);
+        setContentView(R.layout.activity_button);
         Button touchButton = findViewById(R.id.touch);
         Button longClickButton = findViewById(R.id.longClick);
         Button clickButton = findViewById(R.id.click);

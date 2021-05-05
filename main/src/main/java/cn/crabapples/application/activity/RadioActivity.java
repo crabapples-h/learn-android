@@ -10,7 +10,7 @@ public class RadioActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.radio);
+        setContentView(R.layout.activity_radio);
     }
 
 

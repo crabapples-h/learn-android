@@ -4,7 +4,6 @@ import android.os.*;
 import android.util.Log;
 import android.view.View;
 import android.widget.TextView;
-import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import cn.crabapples.application.R;
 
@@ -17,7 +16,7 @@ public class HandlerDemoActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.handler);
+        setContentView(R.layout.activity_handler);
         textView = findViewById(R.id.content);
         callback = msg -> {
             try {
@@ -42,7 +41,11 @@ public class HandlerDemoActivity extends AppCompatActivity {
             printLog(content + Thread.currentThread().getName());
         }).start();
     }
-    class MyHandler extends Handler{}
+
+    /**
+     * 过时的API
+     */
+//    class MyHandler extends Handler{}
 
     public void back(View view) {
     }

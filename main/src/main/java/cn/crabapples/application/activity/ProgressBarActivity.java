@@ -12,7 +12,7 @@ public class ProgressBarActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.progress_bar);
+        setContentView(R.layout.activity_progress_bar);
         final ProgressBar progressBar1 = findViewById(R.id.progress1);
         final ProgressBar progressBar2 = findViewById(R.id.progress2);
         final SeekBar seekBar1 = findViewById(R.id.progress3);

@@ -1,8 +1,4 @@
-//android.useAndroidX=true
-//android.enableJetifier=true
 android {
-//    useAndroidX true
-//    enableJetifier true
     compileSdkVersion 30
     defaultConfig {
         applicationId "cn.crabapples"
