@@ -26,5 +26,6 @@
         <activity android:name=".activity.NotificationActivity" android:label="NotificationActivity"/>
         <activity android:name=".activity.demo.HandlerDemoActivity" android:label="HandlerDemoActivity"/>
         <activity android:name=".activity.demo.AlertDialogActivity" android:label="AlertDialogActivity"/>
+        <activity android:name=".activity.demo.PopupWindowActivity" android:label="PopupWindowActivity"/>
     </application>
 </manifest>
