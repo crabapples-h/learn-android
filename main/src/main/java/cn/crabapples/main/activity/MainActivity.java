@@ -1,4 +1,4 @@
-package cn.crabapples.application.activity;
+package cn.crabapples.main.activity;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -7,8 +7,8 @@ import android.view.View;
 import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
-import cn.crabapples.application.R;
-import cn.crabapples.application.activity.demo.*;
+import cn.crabapples.main.R;
+import cn.crabapples.main.activity.demo.*;
 
 public class MainActivity extends AppCompatActivity {
     private final String TAG = "MainActivity";
@@ -112,6 +112,12 @@ public class MainActivity extends AppCompatActivity {
     public void toPopupWindow(View view) {
         Intent intent = new Intent();
         intent.setClass(MainActivity.this, PopupWindowActivity.class);
+        startActivity(intent);
+    }
+
+    public void toCall(View view) {
+        Intent intent = new Intent();
+        intent.setClass(MainActivity.this, CallActivity.class);
         startActivity(intent);
     }
 }

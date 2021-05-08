@@ -1,11 +1,11 @@
-package cn.crabapples.application.activity.demo;
+package cn.crabapples.main.activity.demo;
 
 import android.os.*;
 import android.util.Log;
 import android.view.View;
 import android.widget.TextView;
 import androidx.appcompat.app.AppCompatActivity;
-import cn.crabapples.application.R;
+import cn.crabapples.main.R;
 
 public class HandlerDemoActivity extends AppCompatActivity {
     private final String TAG = "HandlerDemoActivity";

@@ -1,4 +1,4 @@
-package cn.crabapples.application.activity;
+package cn.crabapples.main.activity;
 
 import android.app.Notification;
 import android.app.NotificationChannel;
@@ -13,7 +13,7 @@ import android.util.Log;
 import android.view.View;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.NotificationCompat;
-import cn.crabapples.application.R;
+import cn.crabapples.main.R;
 
 public class NotificationActivity extends AppCompatActivity {
     private final String TAG = "NotificationActivity";

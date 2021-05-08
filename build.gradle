@@ -32,5 +32,6 @@ task clean(type: Delete) {
 
 
 task customFunc() {
+    println rootProject.buildDir
     println "hello world"
 }

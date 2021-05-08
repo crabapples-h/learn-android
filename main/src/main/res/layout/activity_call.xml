@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             xmlns:tools="http://schemas.android.com/tools"
+             tools:context=".activity.CallActivity">
+    <TableRow>
+        <TextView android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:text="请输入电话号码"/>
+    </TableRow>
+    <TableRow>
+        <EditText android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:hint="电话号码"
+                  android:id="@+id/telNumber"
+                  android:inputType="phone"/>
+    </TableRow>
+    <TableRow>
+        <Button android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="拨打"
+                android:onClick="callTel"/>
+    </TableRow>
+
+    <TableRow>
+        <Button android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/back"
+                android:layout_below="@id/progress4"
+                android:onClick="back"/>
+    </TableRow>
+
+</TableLayout>

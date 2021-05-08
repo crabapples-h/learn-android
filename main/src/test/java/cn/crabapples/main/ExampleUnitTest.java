@@ -1,4 +1,4 @@
-package cn.crabapples.application;
+package cn.crabapples.main;
 
 import org.junit.Test;
 

@@ -1,4 +1,4 @@
-package cn.crabapples.application;
+package cn.crabapples.main;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

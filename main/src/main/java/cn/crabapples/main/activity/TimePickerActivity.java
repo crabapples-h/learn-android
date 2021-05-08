@@ -1,4 +1,4 @@
-package cn.crabapples.application.activity;
+package cn.crabapples.main.activity;
 
 import android.os.Bundle;
 import android.view.View;
@@ -6,7 +6,7 @@ import android.widget.DatePicker;
 import android.widget.TimePicker;
 import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
-import cn.crabapples.application.R;
+import cn.crabapples.main.R;
 
 public class TimePickerActivity extends AppCompatActivity {
 

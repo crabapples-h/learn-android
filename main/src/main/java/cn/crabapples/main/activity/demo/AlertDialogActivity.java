@@ -1,4 +1,4 @@
-package cn.crabapples.application.activity.demo;
+package cn.crabapples.main.activity.demo;
 
 import android.os.Bundle;
 import android.util.Log;
@@ -6,7 +6,7 @@ import android.view.View;
 import android.widget.Toast;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
-import cn.crabapples.application.R;
+import cn.crabapples.main.R;
 
 public class AlertDialogActivity extends AppCompatActivity {
     private final String TAG = "AlertDialogActivity";

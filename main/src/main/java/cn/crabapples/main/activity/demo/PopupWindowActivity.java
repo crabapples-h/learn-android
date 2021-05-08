@@ -1,4 +1,4 @@
-package cn.crabapples.application.activity.demo;
+package cn.crabapples.main.activity.demo;
 
 import android.os.Bundle;
 import android.util.Log;
@@ -7,7 +7,7 @@ import android.view.ViewGroup;
 import android.widget.PopupWindow;
 import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
-import cn.crabapples.application.R;
+import cn.crabapples.main.R;
 
 public class PopupWindowActivity extends AppCompatActivity {
     private final String TAG = "PopupWindowActivity";

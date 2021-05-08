@@ -1,10 +1,10 @@
-package cn.crabapples.application.activity.demo;
+package cn.crabapples.main.activity.demo;
 
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
 import androidx.appcompat.app.AppCompatActivity;
-import cn.crabapples.application.R;
+import cn.crabapples.main.R;
 
 public class ChangeUIDemoActivity extends AppCompatActivity {
     private TextView textView;
