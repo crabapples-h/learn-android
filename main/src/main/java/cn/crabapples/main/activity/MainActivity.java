@@ -120,4 +120,10 @@ public class MainActivity extends AppCompatActivity {
         intent.setClass(MainActivity.this, CallActivity.class);
         startActivity(intent);
     }
+
+    public void toLogin(View view) {
+        Intent intent = new Intent();
+        intent.setClass(MainActivity.this, LoginActivity.class);
+        startActivity(intent);
+    }
 }

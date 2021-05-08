@@ -17,6 +17,7 @@
     <string name="to_dialog">To Dialog</string>
     <string name="to_popup_window">To Popup Window</string>
     <string name="to_call">To Call</string>
+    <string name="to_login">To Login</string>
 
     <!--    <string name="radio_text1">喜欢你</string>-->
     <!--    <string name="radio_text2">还是喜欢你</string>-->

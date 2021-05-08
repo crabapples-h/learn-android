@@ -9,6 +9,7 @@ import android.util.Log;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import cn.crabapples.main.R;
@@ -43,10 +44,8 @@ public class CallActivity extends AppCompatActivity {
             if (checkPermissions(Manifest.permission.CALL_PHONE)) {
                 call(telNumber);
             } else {
-                if (getPermissions(Manifest.permission.CALL_PHONE)) {
-                    call(telNumber);
-                }
                 showToast("没有打电话的权限!");
+                requestPermissions(new String[]{Manifest.permission.CALL_PHONE}, 1);
             }
         }
     }
@@ -65,7 +64,15 @@ public class CallActivity extends AppCompatActivity {
         return PackageManager.PERMISSION_GRANTED == packageManager.checkPermission(permission, "cn.crabapples");
     }
 
-    private boolean getPermissions(String permission) {
-        return false;
+    @Override
+    public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
+        super.onRequestPermissionsResult(requestCode, permissions, grantResults);
+        Log.i(TAG, "授权结束");
+        Log.i(TAG, "" + requestCode);
+        Log.i(TAG, permissions.toString());
+        Log.i(TAG, grantResults.toString());
+        if (requestCode == 1) {
+//            call();
+        }
     }
 }

@@ -29,7 +29,7 @@
         <activity android:name=".activity.demo.HandlerDemoActivity" android:label="HandlerDemoActivity"/>
         <activity android:name=".activity.demo.AlertDialogActivity" android:label="AlertDialogActivity"/>
         <activity android:name=".activity.demo.PopupWindowActivity" android:label="PopupWindowActivity"/>
-        <!--        <activity android:name=".activity.CallActivity" android:label="CallActivity"/>-->
+        <activity android:name=".activity.LoginActivity" android:label="LoginActivity"/>
     </application>
 
 </manifest>
