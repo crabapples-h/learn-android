@@ -32,6 +32,7 @@
         <activity android:name=".activity.demo.AlertDialogActivity" android:label="AlertDialogActivity"/>
         <activity android:name=".activity.demo.PopupWindowActivity" android:label="PopupWindowActivity"/>
         <activity android:name=".activity.LoginActivity" android:label="LoginActivity"/>
+        <activity android:name=".activity.demo.SdcardActivity" android:label="SdcardActivity"/>
     </application>
 
 </manifest>

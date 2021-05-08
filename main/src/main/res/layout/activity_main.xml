@@ -42,6 +42,12 @@
             <Button android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textAlignment="viewStart"
+                    android:text="@string/to_sdcard"
+                    android:onClick="toSdcard"/>
+
+            <Button android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="viewStart"
                     android:text="@string/to_login"
                     android:onClick="toLogin"/>
 

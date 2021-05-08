@@ -126,4 +126,10 @@ public class MainActivity extends AppCompatActivity {
         intent.setClass(MainActivity.this, LoginActivity.class);
         startActivity(intent);
     }
+
+    public void toSdcard(View view) {
+        Intent intent = new Intent();
+        intent.setClass(MainActivity.this, SdcardActivity.class);
+        startActivity(intent);
+    }
 }
