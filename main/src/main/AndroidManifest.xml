@@ -33,7 +33,8 @@
         <activity android:name=".activity.demo.PopupWindowDemoActivity" android:label="PopupWindowDemoActivity"/>
         <activity android:name=".activity.LoginActivity" android:label="LoginActivity"/>
         <activity android:name=".activity.demo.SdcardDemoActivity" android:label="SdcardDemoActivity"/>
-        <activity android:name=".activity.demo.SharedPreferencesDemoActivity" android:label="SharedPreferencesDemoActivity"/>
+        <activity android:name=".activity.demo.SharedPreferencesDemoActivity" android:label="SharedPreferencesDemo"/>
+        <activity android:name=".activity.demo.XmlDemoActivity" android:label="XmlDemoActivity"/>
     </application>
 
 </manifest>

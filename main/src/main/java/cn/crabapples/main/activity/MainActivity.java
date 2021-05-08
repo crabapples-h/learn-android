@@ -139,4 +139,9 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public void toXmlDemo(View view) {
+        Intent intent = new Intent();
+        intent.setClass(MainActivity.this, XmlDemoActivity.class);
+        startActivity(intent);
+    }
 }

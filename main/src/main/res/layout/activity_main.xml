@@ -44,6 +44,11 @@
             <Button android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textAlignment="viewStart"
+                    android:text="To Xml Demo"
+                    android:onClick="toXmlDemo"/>
+            <Button android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="viewStart"
                     android:text="To Share Preferences"
                     android:onClick="toSharedPreferences"/>
             <Button android:layout_width="match_parent"
