@@ -39,100 +39,92 @@
                       android:layout_height="wrap_content"
                       android:text="Hello World!"
                       android:id="@+id/text"/>
+
+
             <Button android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textAlignment="viewStart"
-                    android:text="@string/to_sdcard"
+                    android:text="To Share Preferences"
+                    android:onClick="toSharedPreferences"/>
+            <Button android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="viewStart"
+                    android:text="To Sdcard"
                     android:onClick="toSdcard"/>
-
             <Button android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textAlignment="viewStart"
-                    android:text="@string/to_login"
+                    android:text="To Login"
                     android:onClick="toLogin"/>
-
             <Button android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textAlignment="viewStart"
-                    android:text="@string/to_call"
+                    android:text="To Call"
                     android:onClick="toCall"/>
-
             <Button android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textAlignment="viewStart"
-                    android:text="@string/to_popup_window"
+                    android:text="To Popup Window"
                     android:onClick="toPopupWindow"/>
-
             <Button android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textAlignment="viewStart"
-                    android:text="@string/to_dialog"
+                    android:text="To Dialog"
                     android:onClick="toDialog"/>
-
             <Button android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textAlignment="viewStart"
-                    android:text="@string/to_handler"
+                    android:text="To Handler"
                     android:onClick="toHandler"/>
-
             <Button android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textAlignment="viewStart"
-                    android:text="@string/to_notice"
+                    android:text="To Notice"
                     android:onClick="toNotice"/>
-
             <Button android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textAlignment="viewStart"
-                    android:text="@string/to_button"
+                    android:text="To Button"
                     android:onClick="toButton"/>
-
             <Button android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textAlignment="viewStart"
-                    android:text="@string/intentDemo"
+                    android:text="Intent Demo"
                     android:onClick="intentDemo"/>
-
             <Button android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textAlignment="viewStart"
-                    android:text="@string/to_change_ui_activity"
+                    android:text="To Change UIy"
                     android:onClick="toChangeUI"/>
-
             <Button android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textAlignment="viewStart"
-                    android:text="@string/to_time_picker_activity"
+                    android:text="To Time Pickery"
                     android:onClick="toTimePicker"/>
-
             <Button android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textAlignment="viewStart"
-                    android:text="@string/to_radio_activity"
+                    android:text="To Radio"
                     android:onClick="toRadio"/>
-
             <Button android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textAlignment="viewStart"
-                    android:text="@string/to_progress_bar_activity"
+                    android:text="To Progress Bar"
                     android:onClick="toProgressBar"/>
-
             <Button android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textAlignment="viewStart"
-                    android:text="@string/to_image_activity"
+                    android:text="To Image"
                     android:onClick="toImage"/>
-
             <Button android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textAlignment="viewStart"
-                    android:text="@string/to_check_box_activity"
+                    android:text="To Check Box"
                     android:onClick="toCheckBox"/>
-
             <Button android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textAlignment="viewStart"
-                    android:text="@string/to_live_demo_activity"
+                    android:text="To Live Demo"
                     android:onClick="toLiveDemo"/>
         </LinearLayout>
     </ScrollView>

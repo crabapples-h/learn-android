@@ -9,8 +9,8 @@ import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 import cn.crabapples.main.R;
 
-public class PopupWindowActivity extends AppCompatActivity {
-    private final String TAG = "PopupWindowActivity";
+public class PopupWindowDemoActivity extends AppCompatActivity {
+    private final String TAG = "PopupWindowDemoActivity";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -29,7 +29,7 @@ public class PopupWindowActivity extends AppCompatActivity {
     }
 
     public void showToast(String content) {
-        Toast.makeText(PopupWindowActivity.this, content, Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, content, Toast.LENGTH_SHORT).show();
     }
 
     public void printLog(String content) {

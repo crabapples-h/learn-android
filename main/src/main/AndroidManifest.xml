@@ -30,9 +30,10 @@
         <activity android:name=".activity.NotificationActivity" android:label="NotificationActivity"/>
         <activity android:name=".activity.demo.HandlerDemoActivity" android:label="HandlerDemoActivity"/>
         <activity android:name=".activity.demo.AlertDialogActivity" android:label="AlertDialogActivity"/>
-        <activity android:name=".activity.demo.PopupWindowActivity" android:label="PopupWindowActivity"/>
+        <activity android:name=".activity.demo.PopupWindowDemoActivity" android:label="PopupWindowDemoActivity"/>
         <activity android:name=".activity.LoginActivity" android:label="LoginActivity"/>
-        <activity android:name=".activity.demo.SdcardActivity" android:label="SdcardActivity"/>
+        <activity android:name=".activity.demo.SdcardDemoActivity" android:label="SdcardDemoActivity"/>
+        <activity android:name=".activity.demo.SharedPreferencesDemoActivity" android:label="SharedPreferencesDemoActivity"/>
     </application>
 
 </manifest>

@@ -10,8 +10,8 @@ import cn.crabapples.main.R;
 
 import java.io.File;
 
-public class SdcardActivity extends AppCompatActivity {
-    private final String TAG = "SdcardActivity";
+public class SdcardDemoActivity extends AppCompatActivity {
+    private final String TAG = "SdcardDemoActivity";
     private TextView textView;
 
     @Override
@@ -25,7 +25,6 @@ public class SdcardActivity extends AppCompatActivity {
     }
 
     public void getSize(View view) {
-        textView.setText("");
         File dir = getExternalFilesDir(null);
         long freeSpace = dir.getFreeSpace();
         long useSpace = dir.getUsableSpace();

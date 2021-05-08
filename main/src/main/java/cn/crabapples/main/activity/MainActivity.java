@@ -111,7 +111,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void toPopupWindow(View view) {
         Intent intent = new Intent();
-        intent.setClass(MainActivity.this, PopupWindowActivity.class);
+        intent.setClass(MainActivity.this, PopupWindowDemoActivity.class);
         startActivity(intent);
     }
 
@@ -129,7 +129,14 @@ public class MainActivity extends AppCompatActivity {
 
     public void toSdcard(View view) {
         Intent intent = new Intent();
-        intent.setClass(MainActivity.this, SdcardActivity.class);
+        intent.setClass(MainActivity.this, SdcardDemoActivity.class);
         startActivity(intent);
     }
+
+    public void toSharedPreferences(View view) {
+        Intent intent = new Intent();
+        intent.setClass(MainActivity.this, SharedPreferencesDemoActivity.class);
+        startActivity(intent);
+    }
+
 }
