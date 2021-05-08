@@ -6,7 +6,7 @@ import com.alibaba.fastjson.JSONObject;
 import java.io.*;
 
 /**
- * TODO
+ * TODO 文件操作工具类
  *
  * @author Mr.He
  * 2021/5/8 16:00
@@ -17,6 +17,12 @@ import java.io.*;
 public class FileUtils {
     private final static String TAG = "FileUtils";
 
+    /**
+     * 保存json数据
+     *
+     * @param path       文件路径
+     * @param jsonObject json数据
+     */
     public static void saveFile2Json(String path, JSONObject jsonObject) {
         try {
             writeFile2Text(path, jsonObject);
@@ -27,6 +33,11 @@ public class FileUtils {
         }
     }
 
+    /**
+     * 读取json数据
+     *
+     * @param path 文件路径
+     */
     public static JSONObject getJson2File(String path) {
         try {
             return readTextFile(path);
