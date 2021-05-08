@@ -1,8 +1,10 @@
 package cn.crabapples.main.activity.demo;
 
 import android.os.Bundle;
+import android.text.format.Formatter;
 import android.view.View;
 import android.widget.TextView;
+import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 import cn.crabapples.main.R;
 
@@ -28,8 +30,22 @@ public class SdcardActivity extends AppCompatActivity {
         long freeSpace = dir.getFreeSpace();
         long useSpace = dir.getUsableSpace();
         long totalSpace = dir.getTotalSpace();
-        System.err.println("freeSpace:" + freeSpace);
-        System.err.println("useSpace:" + useSpace);
-        System.err.println("totalSpace:" + totalSpace);
+        System.err.println("freeSpace:" + freeSpace / 1024.0 / 1024 / 1024);
+        System.err.println("useSpace:" + useSpace / 1024.0 / 1024 / 1024);
+        System.err.println("totalSpace:" + totalSpace / 1024.0 / 1024 / 1024);
+        String freeSpaceString = "freeSpace:" + Formatter.formatFileSize(this, freeSpace);
+        String useSpaceString = "freeSpace:" + Formatter.formatFileSize(this, freeSpace);
+        String totalSpaceString = "freeSpace:" + Formatter.formatFileSize(this, freeSpace);
+        System.err.println(freeSpaceString);
+        System.err.println(useSpaceString);
+        System.err.println(totalSpaceString);
+        showToast(freeSpaceString);
+        showToast(useSpaceString);
+        showToast(totalSpaceString);
     }
+
+    public void showToast(String content) {
+        Toast.makeText(this, content, Toast.LENGTH_SHORT).show();
+    }
+
 }
