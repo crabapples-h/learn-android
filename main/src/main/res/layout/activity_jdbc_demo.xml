@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+    <Button android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="打开连接"
+            android:onClick="openSqlConnection"/>
+
+    <Button android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="获取数据"
+            android:onClick="sqlGetData"/>
+
+    <Button android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="添加数据"
+            android:onClick="sqlAddData"/>
+
+    <Button android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="修改数据"
+            android:onClick="sqlUpdateData"/>
+
+    <Button android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="删除数据"
+            android:onClick="sqlDelData"/>
+
+    <Button android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/back"
+            android:onClick="back"/>
+
+</LinearLayout>

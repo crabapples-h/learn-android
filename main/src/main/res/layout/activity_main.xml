@@ -39,8 +39,11 @@
                       android:layout_height="wrap_content"
                       android:text="Hello World!"
                       android:id="@+id/text"/>
-
-
+            <Button android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="viewStart"
+                    android:text="To Jdbc Demo"
+                    android:onClick="toJdbcDemo"/>
             <Button android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textAlignment="viewStart"

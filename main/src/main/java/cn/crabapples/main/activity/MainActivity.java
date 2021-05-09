@@ -144,4 +144,10 @@ public class MainActivity extends AppCompatActivity {
         intent.setClass(MainActivity.this, XmlDemoActivity.class);
         startActivity(intent);
     }
+
+    public void toJdbcDemo(View view) {
+        Intent intent = new Intent();
+        intent.setClass(MainActivity.this, JdbcDemoActivity.class);
+        startActivity(intent);
+    }
 }
