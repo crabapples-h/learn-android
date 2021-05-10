@@ -1,5 +1,6 @@
 package cn.crabapples.main.activity.demo;
 
+import android.Manifest;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -15,8 +16,8 @@ import java.util.Map;
 
 public class JdbcDemoActivity extends AppCompatActivity {
     private final String TAG = "JdbcDemoActivity";
-    private final String url = "jdbc:mysql://192.168.1.152:3306/demo?serverTimezone=Asia/Shanghai";
-    private final String url1 = "jdbc:mysql://windows.crabapples.cn:3306/demo?serverTimezone=Asia/Shanghai";
+    private final String url = "jdbc:mysql://192.168.1.152:3307/demo";
+    private final String url1 = "jdbc:mysql://39.108.172.202:3306/demo?useUnicode=true&characterEncoding=utf-8&serverTimezone=Asia/Shanghai&zeroDateTimeBehavior=convertToNull&allowPublicKeyRetrieval=true";
     private final String username = "crabapples";
     private final String password = "crabapples";
     private Connection connection = null;
@@ -25,39 +26,55 @@ public class JdbcDemoActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_jdbc_demo);
+        requestPermissions(new String[]{Manifest.permission.INTERNET}, 0);
+        conn();
     }
 
-    public void openSqlConnection(View view) {
-        try {
-            Class.forName("com.mysql.cj.jdbc.Driver");
-            connection = DriverManager.getConnection(url1, username, password);
-            System.err.println(connection);
-        } catch (ClassNotFoundException | SQLException e) {
-            e.printStackTrace();
+    public void conn() {
+        if (null == connection) {
+            new Thread(() -> {
+                for (int i = 0; i < 10 && connection == null; i++) {
+                    try {
+                        Class.forName("com.mysql.jdbc.Driver");
+                        connection = DriverManager.getConnection(url, username, password);
+                        System.err.println(connection);
+                        Thread.sleep(5000);
+                    } catch (ClassNotFoundException | SQLException | InterruptedException e) {
+                        e.printStackTrace();
+                    }
+                    printLog(null == connection ? "连接失败" : "连接成功");
+                }
+            }).start();
         }
     }
 
+    public void openSqlConnection(View view) {
+
+    }
+
     public void sqlGetData(View view) {
-        selectCase1(2);
-        selectCase2(3);
+        new Thread(() -> selectCase1(2)).start();
+        new Thread(() -> selectCase2(3)).start();
     }
 
     void selectCase1(int id) {
         try {
-            String sql = "select * from table1" + "where id >" + id;
+            String sql = "select * from table1" + " where id >" + id;
+            System.err.println(sql);
             Statement statement = connection.createStatement();
             ResultSet resultSet = statement.executeQuery(sql);
             List<Map<String, Object>> datas = new ArrayList<>();
             while (resultSet.next()) {
                 Map<String, Object> data = new HashMap<>();
                 data.put("id", resultSet.getInt("id"));
-                data.put("name", resultSet.getInt("name"));
-                data.put("username", resultSet.getInt("username"));
+                data.put("name", resultSet.getString("name"));
+                data.put("username", resultSet.getString("username"));
                 data.put("status", resultSet.getInt("status"));
                 data.put("scope", resultSet.getInt("scope"));
                 datas.add(data);
             }
-            System.err.println(datas);
+            System.out.println("selectCase1()");
+            System.out.println(datas);
         } catch (SQLException e) {
             e.printStackTrace();
         }
@@ -73,13 +90,14 @@ public class JdbcDemoActivity extends AppCompatActivity {
             while (resultSet.next()) {
                 Map<String, Object> data = new HashMap<>();
                 data.put("id", resultSet.getInt("id"));
-                data.put("name", resultSet.getInt("name"));
-                data.put("username", resultSet.getInt("username"));
+                data.put("name", resultSet.getString("name"));
+                data.put("username", resultSet.getString("username"));
                 data.put("status", resultSet.getInt("status"));
                 data.put("scope", resultSet.getInt("scope"));
                 datas.add(data);
             }
-            System.err.println(datas);
+            System.out.println("selectCase2()");
+            System.out.println(datas);
         } catch (SQLException e) {
             e.printStackTrace();
         }

@@ -150,4 +150,10 @@ public class MainActivity extends AppCompatActivity {
         intent.setClass(MainActivity.this, JdbcDemoActivity.class);
         startActivity(intent);
     }
+
+    public void toSqliteDemo(View view) {
+        Intent intent = new Intent();
+        intent.setClass(MainActivity.this, SqliteDemoActivity.class);
+        startActivity(intent);
+    }
 }
