@@ -38,6 +38,7 @@
         <activity android:name=".activity.demo.XmlDemoActivity" android:label="XmlDemoActivity"/>
         <activity android:name=".activity.demo.JdbcDemoActivity" android:label="JdbcDemoActivity"/>
         <activity android:name=".activity.demo.SqliteDemoActivity" android:label="SqliteDemoActivity"/>
+        <activity android:name=".activity.demo.SqliteDemo1Activity" android:label="SqliteDemo1Activity"/>
     </application>
 
 </manifest>

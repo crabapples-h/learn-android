@@ -6,28 +6,17 @@
 
     <Button android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="获取数据"
-            android:onClick="sqlGetData"/>
+            android:text="获取金额"
+            android:onClick="getMoney"/>
 
     <Button android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="添加数据"
-            android:onClick="sqlAddData"/>
-
+            android:text="发起转账"
+            android:onClick="trans"/>
     <Button android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="修改数据"
-            android:onClick="sqlUpdateData"/>
-
-    <Button android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="删除数据"
-            android:onClick="sqlDelData"/>
-
-    <Button android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="删除所有数据"
-            android:onClick="sqlDelAll"/>
+            android:text="重置数据"
+            android:onClick="resetData"/>
 
     <Button android:layout_width="match_parent"
             android:layout_height="wrap_content"
