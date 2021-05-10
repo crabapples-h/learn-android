@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+    <!--ListView的高度如果使用wrap_content时会多次调用Adapter的getView方法来计算需要包裹的高度会造成资源浪费-->
+    <!--调用次数为1+2+3+4+...+n n为listView中数据总条数-->
+    <!--使用java代码创建对象渲染-->
+<!--    <ListView android:layout_width="match_parent"-->
+<!--              android:layout_height="match_parent"-->
+<!--              android:id="@+id/listView"-->
+<!--              android:fastScrollEnabled="true"/>-->
+    <!--使用子布局文件渲染-->
+    <ListView android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:id="@+id/listView1"
+              android:fastScrollEnabled="true"/>
+
+    <Button android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/back"
+            android:onClick="back"/>
+
+</LinearLayout>

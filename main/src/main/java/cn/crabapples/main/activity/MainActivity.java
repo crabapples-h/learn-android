@@ -156,9 +156,16 @@ public class MainActivity extends AppCompatActivity {
         intent.setClass(MainActivity.this, SqliteDemoActivity.class);
         startActivity(intent);
     }
+
     public void toSqliteDemo1(View view) {
         Intent intent = new Intent();
         intent.setClass(MainActivity.this, SqliteDemo1Activity.class);
+        startActivity(intent);
+    }
+
+    public void toListViewDemo(View view) {
+        Intent intent = new Intent();
+        intent.setClass(MainActivity.this, ListViewDemoActivity.class);
         startActivity(intent);
     }
 }
