@@ -168,4 +168,10 @@ public class MainActivity extends AppCompatActivity {
         intent.setClass(MainActivity.this, ListViewDemoActivity.class);
         startActivity(intent);
     }
+
+    public void toListViewDemo1(View view) {
+        Intent intent = new Intent();
+        intent.setClass(MainActivity.this, ListViewDemo1Activity.class);
+        startActivity(intent);
+    }
 }

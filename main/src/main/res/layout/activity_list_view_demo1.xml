@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+    <Button android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="添加数据"
+            android:onClick="addData"/>
+    <Button android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="重置数据"
+            android:onClick="resetData"/>
+    <Button android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="获取数据"
+            android:onClick="getData"/>
+    <Button android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="显示数据"
+            android:onClick="showData"/>
+    <Button android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/back"
+            android:onClick="back"/>
+    <ListView android:layout_width="match_parent"
+              android:layout_height="300dp"
+              android:id="@+id/listView"
+              android:fastScrollEnabled="true"/>
+</LinearLayout>

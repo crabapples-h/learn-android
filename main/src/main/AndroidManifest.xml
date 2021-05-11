@@ -40,6 +40,7 @@
         <activity android:name=".activity.demo.SqliteDemoActivity" android:label="SqliteDemoActivity"/>
         <activity android:name=".activity.demo.SqliteDemo1Activity" android:label="SqliteDemo1Activity"/>
         <activity android:name=".activity.demo.ListViewDemoActivity" android:label="ListViewDemoActivity"/>
+        <activity android:name=".activity.demo.ListViewDemo1Activity" android:label="ListViewDemo1Activity"/>
     </application>
 
 </manifest>
