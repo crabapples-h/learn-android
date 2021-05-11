@@ -4,12 +4,15 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.BaseAdapter;
-import android.widget.ListView;
-import android.widget.TextView;
-import android.widget.Toast;
+import android.widget.*;
 import androidx.appcompat.app.AppCompatActivity;
 import cn.crabapples.main.R;
+import cn.crabapples.main.entity.User;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
 public class ListViewDemoActivity extends AppCompatActivity {
     private final String TAG = "ListViewDemoActivity";
@@ -18,11 +21,71 @@ public class ListViewDemoActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_list_view_demo);
-//        ListView listView = findViewById(R.id.listView);
-//        listView.setAdapter(new MyAdapter());
+        ListView listView = findViewById(R.id.listView);
+        listView.setAdapter(new MyAdapter());
         ListView listView1 = findViewById(R.id.listView1);
         listView1.setAdapter(new MyAdapter1());
+        /*
+         * 创建ArrayAdapter时用三个参数的构造方法
+         * 第一个参数为上下文对象
+         * 第二个参数为布局文件资源ID (且布局文件中只能包含一个TextView)
+         * 第三个参数为需要渲染的数据 (Array或List)
+         */
+        ListView listView2 = findViewById(R.id.listView2);
+        listView2.setAdapter(new ArrayAdapter<>(this, R.layout.module_listview_array, initData()));
+        /*
+         * 创建ArrayAdapter时用四个参数的构造方法
+         * 第一个参数为上下文对象
+         * 第二个参数为布局文件资源ID
+         * 第三个参数为布局资源文件中TextView的ID
+         * 第四个参数为需要渲染的数据 (Array或List)
+         */
+        ListView listView3 = findViewById(R.id.listView3);
+        listView3.setAdapter(new ArrayAdapter<>(this, R.layout.module_listview_array1, R.id.listview_text1, initData()));
+        /*
+         * 使用SimpleAdapter渲染数据
+         * 创建SimpleAdapter需要五个参数，分别为：context,data,resource,from,to
+         * 第一个参数context为上下文对象
+         * 第二个参数data是一个List<Map>，内容为需要渲染的数据
+         * 第三个参数resource为布局文件资源ID
+         * 第四个参数from是一个字符串数组，内容为第二个参数中Map的key，且顺序与第五个参数组件的Id顺序对应
+         * 第五个参数to是一个字符串数组，内容为布局文件中需要渲染的组件的id，且顺序与第四个参数组件的顺序对应
+         *
+         * 原理为：
+         * 1.通过from中传入的字符串从data中分别取出对应的内容
+         * 2.通过to中对应传入的id从resource中找到对应的组件
+         * 3.将第1步中取出的内容按照from的顺序渲染到第2步中找到的组件上
+         * 例如：
+         * 1.通过from中传入的"text1" 从data取出对应的内容为 "这个是text1:"
+         * 2.在resource中到to中传入的ID对应的组件，id为listview_text3一个TextView
+         * 3.将text1对应的内容填入id为listview_text3的TextView中
+         */
+        ListView listView4 = findViewById(R.id.listView4);
+        List<Map<String, String>> data = new ArrayList<>();
+        for (int i = 0; i < 100; i++) {
+            Map<String, String> item = new HashMap<>();
+            item.put("text1", "这个是text1:" + i);
+            item.put("text2", "这个是text2:" + i);
+            item.put("text3", "这个是text3:" + i);
+            data.add(item);
+        }
+        String[] from = new String[]{"text1", "text2", "text3"};
+        int[] to = new int[]{R.id.listview_text3, R.id.listview_text4, R.id.listview_text5};
+        listView4.setAdapter(new SimpleAdapter(this, data, R.layout.module_listview_simple, from, to));
     }
+
+    public List<String> initData() {
+        ArrayList<String> users = new ArrayList<>();
+        for (int i = 0; i < 30; i++) {
+            User user = new User();
+            user.name = "user:" + i;
+            user.sex = (byte) (i % 2);
+            user.age = i;
+            users.add(user.toString());
+        }
+        return users;
+    }
+
 
     class MyAdapter extends BaseAdapter {
         @Override
@@ -89,7 +152,7 @@ public class ListViewDemoActivity extends AppCompatActivity {
                  * 2.使用LayoutInflater的静态方法获取LayoutInflater对象，然后使用inflate()方法进行转换
                  * 3.使用View的静态方法直接进行转换
                  * 4.使用getSystemService()方法获取LayoutInflater对象，然后使用inflate()方法进行转换
-                 * 【在Google的代码中使用这种方式获取LayoutInflater对象】
+                 * 【Google推荐使用这种方式获取LayoutInflater对象】
                  * 以上列举的四种方式会用到三个参数: context,resource,root
                  * 第一个参数context为上下文对象，第二个参数resource为需要转换的布局文件资源ID(R.layout.xxxxxxx)
                  * 第三个参数root为一个ViewGroup，当传入ViewGroup时那么通过这个方法创建出来的View对象会作为传入对象的子元素

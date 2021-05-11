@@ -3,18 +3,28 @@
               android:layout_width="match_parent"
               android:layout_height="match_parent"
               android:orientation="vertical">
-    <!--ListView的高度如果使用wrap_content时会多次调用Adapter的getView方法来计算需要包裹的高度会造成资源浪费-->
-    <!--调用次数为1+2+3+4+...+n n为listView中数据总条数-->
-    <!--使用java代码创建对象渲染-->
-<!--    <ListView android:layout_width="match_parent"-->
-<!--              android:layout_height="match_parent"-->
-<!--              android:id="@+id/listView"-->
-<!--              android:fastScrollEnabled="true"/>-->
-    <!--使用子布局文件渲染-->
-    <ListView android:layout_width="match_parent"
-              android:layout_height="match_parent"
-              android:id="@+id/listView1"
-              android:fastScrollEnabled="true"/>
+    <!--在布局文件中声明ListView时宽高都不应设置为wrap_content-->
+    <!--当宽度设置为wrap_content时，可能会因为每条数据的内容不同造成显示异常-->
+    <!--当高度设置为wrap_content时，会多次计算内容的高度造成资源浪费-->
+
+
+    <!--BaseAdapter 使用java代码创建对象渲染-->
+    <ListView android:layout_width="match_parent" android:layout_height="100dp"
+              android:id="@+id/listView" android:fastScrollEnabled="true"/>
+    <!--BaseAdapter 使用子布局文件渲染-->
+    <ListView android:layout_width="match_parent" android:layout_height="100dp"
+              android:id="@+id/listView1" android:fastScrollEnabled="true"/>
+
+    <!--使用ArrayAdapter渲染简单数据-->
+    <ListView android:layout_width="match_parent" android:layout_height="100dp"
+              android:id="@+id/listView2" android:fastScrollEnabled="true"/>
+    <!--使用ArrayAdapter渲染稍微复杂数据-->
+    <ListView android:layout_width="match_parent" android:layout_height="100dp"
+              android:id="@+id/listView3" android:fastScrollEnabled="true"/>
+
+    <!--使用SimpleAdapter渲染数据-->
+    <ListView android:layout_width="match_parent" android:layout_height="100dp"
+              android:id="@+id/listView4" android:fastScrollEnabled="true"/>
 
     <Button android:layout_width="match_parent"
             android:layout_height="wrap_content"
