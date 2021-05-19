@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
+import android.net.Uri;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -124,9 +125,13 @@ public class ListViewDemo1Activity extends AppCompatActivity {
             Log.v(TAG, "" + item.findViewById(R.id.listview_text1).toString());
             Log.v(TAG, "" + position);
             Log.v(TAG, "" + id);
+            Intent intent = new Intent();
+            intent.setAction(Intent.ACTION_SEND);
+            intent.setType("text/plain");
+            intent.putExtra("sms_body", "喜欢你");
+            startActivity(intent);
+//        intent.setDataAndType(Uri.parse())
         });
-        Intent intent = new Intent();
-//        intent.setAction(Intent)
     }
 
     public void showToast(String content) {
