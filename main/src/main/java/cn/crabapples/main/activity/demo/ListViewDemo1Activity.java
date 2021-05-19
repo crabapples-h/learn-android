@@ -2,6 +2,7 @@ package cn.crabapples.main.activity.demo;
 
 import android.content.ContentValues;
 import android.content.Context;
+import android.content.Intent;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
@@ -10,10 +11,7 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.BaseAdapter;
-import android.widget.ListView;
-import android.widget.TextView;
-import android.widget.Toast;
+import android.widget.*;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 import cn.crabapples.main.R;
@@ -42,12 +40,12 @@ public class ListViewDemo1Activity extends AppCompatActivity {
 
         @Override
         public Object getItem(int position) {
-            return null;
+            return data.get(position);
         }
 
         @Override
         public long getItemId(int position) {
-            return 0;
+            return position;
         }
 
         @Override
@@ -121,6 +119,14 @@ public class ListViewDemo1Activity extends AppCompatActivity {
     public void showData(View view) {
         ListView listView = findViewById(R.id.listView);
         listView.setAdapter(new MyAdapter());
+        listView.setOnItemClickListener((AdapterView<?> parent, View item, int position, long id) -> {
+            Log.v(TAG, "" + parent);
+            Log.v(TAG, "" + item.findViewById(R.id.listview_text1).toString());
+            Log.v(TAG, "" + position);
+            Log.v(TAG, "" + id);
+        });
+        Intent intent = new Intent();
+//        intent.setAction(Intent)
     }
 
     public void showToast(String content) {
