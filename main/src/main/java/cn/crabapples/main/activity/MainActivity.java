@@ -174,4 +174,16 @@ public class MainActivity extends AppCompatActivity {
         intent.setClass(MainActivity.this, ListViewDemo1Activity.class);
         startActivity(intent);
     }
+
+    public void toCodeRead(View view) {
+        Intent intent = new Intent();
+        intent.setClass(MainActivity.this, CodeReadDemoActivity.class);
+        startActivity(intent);
+    }
+
+    public void toDownload(View view) {
+        Intent intent = new Intent();
+        intent.setClass(MainActivity.this, DownloadDemoActivity.class);
+        startActivity(intent);
+    }
 }

@@ -42,6 +42,16 @@
             <Button android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textAlignment="viewStart"
+                    android:text="To Download"
+                    android:onClick="toDownload"/>
+            <Button android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="viewStart"
+                    android:text="To CodeRead"
+                    android:onClick="toCodeRead"/>
+            <Button android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="viewStart"
                     android:text="To ListView1"
                     android:onClick="toListViewDemo1"/>
             <Button android:layout_width="match_parent"
