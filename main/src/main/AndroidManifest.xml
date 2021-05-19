@@ -10,8 +10,6 @@
                  android:roundIcon="@mipmap/ic_launcher_round"
                  android:supportsRtl="true"
                  android:theme="@style/AppTheme">
-        <activity android:name=".activity.CallActivity">
-        </activity>
         <!-- 可注册多个activity,但只有包含 <intent_demo-filter> 标签的activity为程序默认的activity -->
         <activity android:name=".activity.MainActivity" android:label="MainActivity">
             <intent-filter>
@@ -19,8 +17,20 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:name=".activity.demo.LiveDemoActivity" android:label="LiveDemoActivity"/>
-        <activity android:name=".activity.CheckBoxActivity" android:label="CheckBoxActivity"/>
+        <activity android:name=".activity.demo.LiveDemoActivity" android:label="LiveDemoActivity">
+            <intent-filter>
+                <action android:name="cn.crabapples.liveDemo"/>
+<!--                <data android:scheme="crabapples"/>-->
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.CheckBoxActivity" android:label="CheckBoxActivity">
+            <intent-filter>
+                <action android:name="cn.crabapples.checkBoxDemo"/>
+                <!--                <data android:scheme="crabapples"/>-->
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
         <activity android:name=".activity.ImageActivity" android:label="ImageActivity"/>
         <activity android:name=".activity.RadioActivity" android:label="RadioActivity"/>
         <activity android:name=".activity.TimePickerActivity" android:label="TimePickerActivity"/>
@@ -32,6 +42,7 @@
         <activity android:name=".activity.demo.HandlerDemoActivity" android:label="HandlerDemoActivity"/>
         <activity android:name=".activity.demo.AlertDialogActivity" android:label="AlertDialogActivity"/>
         <activity android:name=".activity.demo.PopupWindowDemoActivity" android:label="PopupWindowDemoActivity"/>
+        <activity android:name=".activity.CallActivity" android:label="CallActivity"/>
         <activity android:name=".activity.LoginActivity" android:label="LoginActivity"/>
         <activity android:name=".activity.demo.SdcardDemoActivity" android:label="SdcardDemoActivity"/>
         <activity android:name=".activity.demo.SharedPreferencesDemoActivity" android:label="SharedPreferencesDemo"/>

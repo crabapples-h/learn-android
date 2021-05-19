@@ -36,15 +36,18 @@ public class MainActivity extends AppCompatActivity {
         printLog("点击了导航栏");
     }
 
+    // 隐式意图
     public void toLiveDemo(View view) {
         Intent intent = new Intent();
-        intent.setClass(MainActivity.this, LiveDemoActivity.class);
+        intent.setAction("cn.crabapples.liveDemo");
+//        intent.setData(Uri.parse("crabapples:" + 110));
         startActivity(intent);
     }
 
+    // 显式意图
     public void toCheckBox(View view) {
         Intent intent = new Intent();
-        intent.setClass(MainActivity.this, CheckBoxActivity.class);
+        intent.setClassName("cn.cranapples", "CheckBoxActivity");
         startActivity(intent);
     }
 
@@ -78,6 +81,7 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+    // intent传递数据
     public void intentDemo(View view) {
         Intent intent = new Intent();
         intent.setClass(MainActivity.this, IntentDemoActivity.class);
