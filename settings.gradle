@@ -1,5 +1,4 @@
+include ':intent_demo'
 include ':main'
 include ':localtion_upload'
-include 'toast'
-include 'network'
 rootProject.name = 'learn-android'

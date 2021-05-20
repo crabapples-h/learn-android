@@ -2,7 +2,7 @@ apply plugin: 'com.android.application'
 apply from: "${rootProject.projectDir}/config.gradle"
 android {
     defaultConfig {
-        applicationId "cn.crabapples.main"
+        applicationId "cn.crabapples.intent_demo"
     }
 }
 group = "cn.crabapples"

@@ -6,13 +6,12 @@
               android:layout_height="match_parent"
               android:orientation="vertical"
               tools:context=".activity.MainActivity">
-    <androidx.appcompat.widget.Toolbar
-            android:layout_width="match_parent"
-            android:layout_height="?attr/actionBarSize"
-            android:background="#6B9853"
-            app:navigationIcon="@drawable/left"
-            android:onClick="back"
-            android:id="@+id/toolBar">
+    <androidx.appcompat.widget.Toolbar android:layout_width="match_parent"
+                                       android:layout_height="?attr/actionBarSize"
+                                       android:background="#6B9853"
+                                       app:navigationIcon="@drawable/left"
+                                       android:onClick="back"
+                                       android:id="@+id/toolBar">
         <TextView android:layout_width="wrap_content"
                   android:layout_height="match_parent"
                   android:text="Hello World!"
