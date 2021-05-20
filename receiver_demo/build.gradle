@@ -1,0 +1,9 @@
+apply plugin: 'com.android.application'
+apply from: "${rootProject.projectDir}/config.gradle"
+android {
+    defaultConfig {
+        applicationId "cn.crabapples.receiverDemo"
+    }
+}
+group = "cn.crabapples"
+description = "this is gradle receiver demo"

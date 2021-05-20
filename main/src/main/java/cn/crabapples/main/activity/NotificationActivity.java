@@ -30,7 +30,6 @@ public class NotificationActivity extends AppCompatActivity {
      * 发送系统通知
      */
     public void send(View view) {
-        //
         NotificationManager manager = (NotificationManager) getSystemService(NOTIFICATION_SERVICE);
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
             NotificationChannel channel = new NotificationChannel("crabapples", "测试通知", NotificationManager.IMPORTANCE_HIGH);

@@ -1,3 +1,4 @@
+include ':receiver_demo'
 include ':intent_demo'
 include ':main'
 include ':localtion_upload'

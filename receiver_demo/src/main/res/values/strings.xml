@@ -1,0 +1,5 @@
+<resources>
+    <string name="back">back</string>
+    <string name="hello_world">hello world!</string>
+    <string name="app_name">receiverDemo</string>
+</resources>
