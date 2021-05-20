@@ -47,7 +47,7 @@ public class MainActivity extends AppCompatActivity {
     // 显式意图
     public void toCheckBox(View view) {
         Intent intent = new Intent();
-        intent.setClassName("cn.cranapples", "CheckBoxActivity");
+        intent.setClassName("cn.cranapples.main", "CheckBoxActivity");
         startActivity(intent);
     }
 
