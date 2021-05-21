@@ -60,8 +60,6 @@ public class MainActivity extends AppCompatActivity {
                 messageView.setText(message);
                 break;
         }
-
-
     }
 
     public void selectUser(View view) {
