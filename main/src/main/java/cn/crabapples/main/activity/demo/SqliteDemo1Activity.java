@@ -20,7 +20,6 @@ import java.util.List;
 import java.util.Map;
 
 public class SqliteDemo1Activity extends AppCompatActivity {
-    private final String TAG = "SqliteDemo1Activity";
     private SQLiteOpenHelper helper;
 
     @Override
@@ -97,7 +96,6 @@ public class SqliteDemo1Activity extends AppCompatActivity {
         database.beginTransaction();
         try {
             database.execSQL("update demo_table set money = money - 100 where name = 'zhangsan'");
-            System.err.println(100 / 0);
             database.execSQL("update demo_table set money = money + 100 where name = 'lisi'");
             database.setTransactionSuccessful();
             showToast("转账完成");
@@ -125,6 +123,7 @@ public class SqliteDemo1Activity extends AppCompatActivity {
     }
 
     public void printLog(String content) {
+        String TAG = "crabapples";
         Log.i(TAG, content);
     }
 

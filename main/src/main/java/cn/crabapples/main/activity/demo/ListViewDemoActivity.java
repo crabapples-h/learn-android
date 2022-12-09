@@ -15,7 +15,7 @@ import java.util.List;
 import java.util.Map;
 
 public class ListViewDemoActivity extends AppCompatActivity {
-    private final String TAG = "ListViewDemoActivity";
+    private final String TAG = "crabapples";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

@@ -18,7 +18,6 @@ import java.io.IOException;
 import java.util.ArrayList;
 
 public class XmlDemoActivity extends AppCompatActivity {
-    private final String TAG = "XmlDemoActivity";
     private ArrayList<User> users;
 
     @Override
@@ -44,6 +43,7 @@ public class XmlDemoActivity extends AppCompatActivity {
     }
 
     public void printLog(String content) {
+        String TAG = "crabapples";
         Log.i(TAG, content);
     }
 

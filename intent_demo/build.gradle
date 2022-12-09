@@ -1,6 +1,8 @@
 apply plugin: 'com.android.application'
 apply from: "${rootProject.projectDir}/config.gradle"
 android {
+
+    namespace 'cn.crabapples.intent_demo'
     defaultConfig {
         applicationId "cn.crabapples.intent_demo"
     }

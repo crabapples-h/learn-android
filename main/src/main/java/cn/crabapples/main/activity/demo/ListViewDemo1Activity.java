@@ -22,7 +22,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class ListViewDemo1Activity extends AppCompatActivity {
-    private final String TAG = "ListViewDemo1Activity";
+    private final String TAG = "crabapples";
     private SQLiteOpenHelper openHelper;
     private final ArrayList<Map<String, Object>> data = new ArrayList<>();
 

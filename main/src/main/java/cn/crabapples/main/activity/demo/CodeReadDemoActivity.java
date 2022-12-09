@@ -18,7 +18,7 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 
 public class CodeReadDemoActivity extends AppCompatActivity {
-    private final String TAG = "CodeReadDemoActivity";
+    private final String TAG = "crabapples";
     private EditText editText;
     private Handler handler;
 

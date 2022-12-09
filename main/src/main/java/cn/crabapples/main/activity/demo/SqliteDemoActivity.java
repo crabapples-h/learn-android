@@ -19,7 +19,7 @@ import java.util.List;
 import java.util.Map;
 
 public class SqliteDemoActivity extends AppCompatActivity {
-    private final String TAG = "SqliteDemoActivity";
+    private final String TAG = "crabapples";
     private SQLiteOpenHelper helper;
 
     @Override

@@ -10,7 +10,6 @@ import androidx.appcompat.app.AppCompatActivity;
 import cn.crabapples.main.R;
 
 public class ButtonActivity extends AppCompatActivity {
-    private final String TAG = "ButtonActive";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -67,6 +66,7 @@ public class ButtonActivity extends AppCompatActivity {
     }
 
     public void printLog(String content) {
+        String TAG = "crabapples";
         Log.i(TAG, content);
     }
 }

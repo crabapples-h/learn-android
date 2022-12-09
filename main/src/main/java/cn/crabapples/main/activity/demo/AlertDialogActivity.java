@@ -9,7 +9,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import cn.crabapples.main.R;
 
 public class AlertDialogActivity extends AppCompatActivity {
-    private final String TAG = "AlertDialogActivity";
+    private final String TAG = "crabapples";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

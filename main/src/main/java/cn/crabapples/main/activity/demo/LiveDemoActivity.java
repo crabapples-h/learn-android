@@ -7,7 +7,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import cn.crabapples.main.R;
 
 public class LiveDemoActivity extends AppCompatActivity {
-    private final String TAG = "LiveDemoActivity";
+    private final String TAG = "crabapples";
 
     /**
      * 在Activity第一次创建时被调用

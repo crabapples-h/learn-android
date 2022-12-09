@@ -11,7 +11,7 @@ import cn.crabapples.main.R;
 import java.io.File;
 
 public class SdcardDemoActivity extends AppCompatActivity {
-    private final String TAG = "SdcardDemoActivity";
+    private final String TAG = "crabapples";
     private TextView textView;
 
     @Override

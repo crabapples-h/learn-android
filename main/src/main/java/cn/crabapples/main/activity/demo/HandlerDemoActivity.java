@@ -8,7 +8,6 @@ import androidx.appcompat.app.AppCompatActivity;
 import cn.crabapples.main.R;
 
 public class HandlerDemoActivity extends AppCompatActivity {
-    private final String TAG = "HandlerDemoActivity";
     private TextView textView;
     Handler.Callback callback;
     Handler handler;
@@ -51,6 +50,7 @@ public class HandlerDemoActivity extends AppCompatActivity {
     }
 
     public void printLog(String content) {
+        String TAG = "crabapples";
         Log.i(TAG, content);
     }
 

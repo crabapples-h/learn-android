@@ -15,7 +15,7 @@ import java.util.List;
 import java.util.Map;
 
 public class JdbcDemoActivity extends AppCompatActivity {
-    private final String TAG = "JdbcDemoActivity";
+    private final String TAG = "crabapples";
     private final String url = "jdbc:mysql://192.168.1.152:3307/demo";
     private final String url1 = "jdbc:mysql://39.108.172.202:3306/demo?useUnicode=true&characterEncoding=utf-8&serverTimezone=Asia/Shanghai&zeroDateTimeBehavior=convertToNull&allowPublicKeyRetrieval=true";
     private final String username = "crabapples";

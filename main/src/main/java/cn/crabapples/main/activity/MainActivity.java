@@ -11,7 +11,6 @@ import cn.crabapples.main.R;
 import cn.crabapples.main.activity.demo.*;
 
 public class MainActivity extends AppCompatActivity {
-    private final String TAG = "MainActivity";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -29,6 +28,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void printLog(String content) {
+        String TAG = "crabapples";
         Log.i(TAG, content);
     }
 

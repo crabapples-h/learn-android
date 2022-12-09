@@ -9,7 +9,6 @@ import androidx.appcompat.app.AppCompatActivity;
 import cn.crabapples.main.R;
 
 public class SharedPreferencesDemoActivity extends AppCompatActivity {
-    private final String TAG = "PreferencesDemoActivity";
     private SharedPreferences preferences;
 
     @Override
@@ -56,6 +55,7 @@ public class SharedPreferencesDemoActivity extends AppCompatActivity {
     }
 
     public void printLog(String content) {
+        String TAG = "crabapples";
         Log.i(TAG, content);
     }
 

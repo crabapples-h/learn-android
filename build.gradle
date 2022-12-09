@@ -6,12 +6,22 @@ apply plugin: 'me.tatarka.retrolambda'
 buildscript {
     repositories {
         mavenLocal()
-        maven { url 'https://maven.aliyun.com/repository/google' }
-        maven { url 'https://maven.aliyun.com/repository/jcenter' }
-        maven { url 'http://maven.aliyun.com/nexus/content/groups/public' }
+        maven {
+            allowInsecureProtocol = true
+            url 'https://maven.aliyun.com/repository/google'
+        }
+        maven {
+            allowInsecureProtocol = true
+            url 'https://maven.aliyun.com/repository/jcenter'
+        }
+        maven {
+            allowInsecureProtocol = true
+            url 'https://maven.aliyun.com/nexus/content/groups/public'
+        }
+        mavenCentral()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:4.1.1'
+        classpath 'com.android.tools.build:gradle:7.2.0'
         classpath 'me.tatarka:gradle-retrolambda:3.2.0'
         // NOTE: Do not place your activity_main dependencies here; they belong
         // in the individual module build.gradle files

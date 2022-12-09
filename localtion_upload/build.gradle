@@ -3,6 +3,9 @@
 //}
 apply plugin: 'com.android.application'
 apply from: "${rootProject.projectDir}/config.gradle"
+android {
+    namespace 'cn.crabapples.localtion_upload'
+}
 
 group = "cn.crabapples"
 description = "this is gradle location demo"

@@ -10,7 +10,6 @@ import androidx.appcompat.app.AppCompatActivity;
 import cn.crabapples.main.R;
 
 public class PopupWindowDemoActivity extends AppCompatActivity {
-    private final String TAG = "PopupWindowDemoActivity";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -33,6 +32,7 @@ public class PopupWindowDemoActivity extends AppCompatActivity {
     }
 
     public void printLog(String content) {
+        String TAG = "crabapples";
         Log.i(TAG, content);
     }
 

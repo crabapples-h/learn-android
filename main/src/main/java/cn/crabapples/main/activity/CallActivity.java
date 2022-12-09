@@ -16,7 +16,7 @@ import cn.crabapples.main.R;
 
 public class CallActivity extends AppCompatActivity {
     private EditText telNumberView;
-    private final String TAG = "CallActivity";
+    private final String TAG = "crabapples";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
