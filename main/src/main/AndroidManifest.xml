@@ -11,20 +11,26 @@
                  android:supportsRtl="true"
                  android:theme="@style/AppTheme">
         <!-- 可注册多个activity,但只有包含 <intent_demo-filter> 标签的activity为程序默认的activity -->
-        <activity android:name=".activity.MainActivity" android:label="MainActivity">
+        <activity android:name=".activity.MainActivity"
+                  android:label="MainActivity"
+                  android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:name=".activity.demo.LiveDemoActivity" android:label="LiveDemoActivity">
+        <activity android:name=".activity.demo.LiveDemoActivity"
+                  android:label="LiveDemoActivity"
+                  android:exported="true">
             <intent-filter>
                 <action android:name="cn.crabapples.liveDemo"/>
 <!--                <data android:scheme="crabapples"/>-->
                 <category android:name="android.intent.category.DEFAULT"/>
             </intent-filter>
         </activity>
-        <activity android:name=".activity.CheckBoxActivity" android:label="CheckBoxActivity">
+        <activity android:name=".activity.CheckBoxActivity"
+                  android:label="CheckBoxActivity"
+                  android:exported="true">
             <intent-filter>
                 <action android:name="cn.crabapples.checkBoxDemo"/>
                 <!--                <data android:scheme="crabapples"/>-->
